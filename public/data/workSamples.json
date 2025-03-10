@@ -71,7 +71,7 @@
             }
         ],
         "tags": [22, 12, 14, 16, 17, 57],
-        "description": "Created as a means to extend my knowledge of Python, this Discord bot contains some features like moderation, leveling, and configuration. It also contains commands related to my accounts and projects. Each part of the bot is very modular, and is able to be removed simply to removing the Python file itself.",
+        "description": "Created as a means to extend my knowledge of Python, this Discord bot contains some features like moderation, leveling, and configuration. The bot mainly contains commands related to managing Discord channels, configurations, leveling features, and more. It additionally contains extra commands related to my accounts and projects. Each part of the bot is very modular, allowing for parts to be added and removed simply by adding and removing files from a folder.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/DiscordBot/5.jpg",
@@ -159,7 +159,7 @@
             }
         ],
         "tags": [64, 65, 12, 17],
-        "description": "As extra credit for my Information Technology class, I created a binary clock application in Visual Basic using Windows Form Apps. The application take current time values, and performs some basic math to display the time in a binary format. I utilized various programming practices to make this application as efficient and easy to read as possible.",
+        "description": "As extra credit for my Information Technology class, I created a binary clock application in Visual Basic using Windows Form Apps. The application takes current time values, and performs some basic math to display the time in a binary format. I utilized various programming practices to make this application as efficient and easy to read as possible within my current Visual Basic skill level.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/BinaryClock/2.jpg",
@@ -201,7 +201,7 @@
             }
         ],
         "tags": [67, 24, 12, 14, 20, 68],
-        "description": "Similar to the my Python Mod Downloader, this project aims to accomplish the same goal. However, this version lacks any self updating features, due to another project becoming this one's successor. This project also contains Minecraft shaderpack downloading, allowing the user to automatically download a shaderpack, which moves itself to the correct folders once downloaded.",
+        "description": "Similar to the my Python Mod Downloader, this project aims to accomplish the same goal of downloading and configuring a Minecraft modpack. However, this version lacks any self updating features, due to another project becoming this one's successor as well. This project also contains additional Minecraft shaderpack downloading, allowing the user to automatically download a shaderpack, which moves itself to the correct folders once downloaded.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/CSharpModDownloader/4.jpg",
@@ -336,7 +336,7 @@
             }
         ],
         "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17, 74, 75],
-        "description": "Created during a game development project in my Information Technology class, Forlorn was based off the theme of immigration. In this project, everyone worked in pairs to create both a game and website, I worked on the game portion. During the project, each group was instructed to create a project planner to organize and visualize their progress, detailing all the tasks each member of the group was to work on. Finally, at the end of the project we were to create poster boards with information on our games, as a form of advertisement, and present them in an open-house style format to students who came by. Additionally, our teacher held a voting station where viewers of the presentations could vote on which game they found to be most enjoyable, which Forlorn ended up winning 1st place on.",
+        "description": "Created during a game development project in my Information Technology class, Forlorn was based off the theme of immigration. In this project, everyone worked in pairs to create both a game and website. In my case, my partner worked on the game's website, while I worked on the game. During the project, each group was instructed to create a project planner to organize and visualize their progress, detailing all the tasks each member of the group was to work on. Finally, at the end of the project we were to create poster boards with information on our games, as a form of advertisement, and present them in an open-house style format to students who came by. Additionally, our teacher held a voting station where viewers of the presentations could vote on which game they found to be most enjoyable, which Forlorn ended up winning 1st place.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/Forlorn/6.jpg",
