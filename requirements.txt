@@ -1,8 +1,0 @@
-Manual Path Updating:
-1. WinKey + R
-2. rundll32 sysdm.cpl,EditEnvironmentVariables
-3. Add to user part, and add path of nodejs folder to the thing to the PATH variable
-
-Usual Path Updating:
-1. Open cmd
-2. set PATH=<NODE_PATH>;%PATH%
