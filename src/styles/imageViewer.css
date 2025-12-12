@@ -1,0 +1,180 @@
+#imageViewer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: clamp(90%, 85%, 1250px);
+  max-width: 1250px;
+  height: min(75vh, 95vw);
+  background-color: rgba(56, 56, 56, 0.95);
+  border-radius: 5px;
+  z-index: 100;
+  transition: opacity 0.15s ease-out;
+}
+#imageViewer.open {
+  opacity: 1;
+  pointer-events: all;
+}
+#imageViewer.closed {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#imageViewerTitle {
+  display: flex;
+  width: 93%;
+  height: 8%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: clamp(0.25rem, 5vw, 2em);
+  background-color: rgba(30, 30, 30, 0.25);
+  border-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  border-width: 1px;
+  white-space: nowrap;
+  color: #EDEDED;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+#imageViewerImageContainer {
+  display: flex;
+  position: relative;
+  width: 93%;
+  height: 63%;
+  background-color: rgba(30, 30, 30, 0.25);
+  border-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  border-width: 1px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#imageViewerLeft {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 2%;
+  height: 80px;
+  width: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #EDEDED;
+  background-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  font-size: 3em;
+  z-index: 1;
+  cursor: pointer;
+  transition: left 0.3s ease-out;
+}
+#imageViewerLeft:hover {
+  left: 1.75%;
+}
+
+#imageViewerImage {
+  position: relative;
+  width: auto;
+  height: 95%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#imageViewerRight {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 2%;
+  height: 80px;
+  width: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #EDEDED;
+  background-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  font-size: 3em;
+  z-index: 1;
+  transform: scaleX(-1);
+  cursor: pointer;
+  transition: right 0.3s ease-out;
+}
+#imageViewerRight:hover {
+  right: 1.75%;
+}
+
+#imageViewerNewTab {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  right: 20px;
+  top: 20px;
+  height: 30px;
+  width: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #EDEDED;
+  background-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  font-size: 3em;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+#imageViewerNewTab:hover {
+  width: 32px;
+  height: 32px;
+  right: 18px;
+  top: 18px;
+}
+
+#imageViewerCaption {
+  display: flex;
+  color: #EDEDED;
+  font-size: clamp(1rem, 1vw, 2.5em);
+  background-color: rgba(30, 30, 30, 0.25);
+  border-color: rgba(27, 27, 27, 0.25);
+  border-radius: 5px;
+  border-width: 1px;
+  width: 93%;
+  height: 15%;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#imageViewerExit {
+  display: flex;
+  color: #EDEDED;
+  font-size: clamp(1rem, 1vw, 2.5em);
+  border-radius: 5px;
+  background-color: rgba(30, 30, 30, 0.25);
+  border-color: rgba(27, 27, 27, 0.25);
+  border-width: 1px;
+  width: 90%;
+  height: 5%;
+  margin: auto;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+#imageViewerExit:hover {
+  width: 92%;
+  border-radius: 10px;
+  border-color: rgba(27, 27, 27, 0.75);
+}

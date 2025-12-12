@@ -1,0 +1,8 @@
+@keyframes glowMove {
+  0% {
+    background: linear-gradient(0deg, #007ACC, #00D8FF, #007ACC);
+  }
+  100% {
+    background: linear-gradient(360deg, #007ACC, #00D8FF, #007ACC);
+  }
+}

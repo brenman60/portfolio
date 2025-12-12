@@ -1,0 +1,452 @@
+{
+    "data_cleaning_and_visualization": {
+        "category": "Data Science & Automation",
+        "status": "Completed",
+        "name": "Data Cleaning & Visualization",
+        "order": "2",
+        "gallery": [
+            "/portfolio/images/projects/DataCleaningVisualization/1.jpg",
+            "/portfolio/images/projects/DataCleaningVisualization/2.jpg",
+            "/portfolio/images/projects/DataCleaningVisualization/3.jpg",
+            "/portfolio/images/projects/DataCleaningVisualization/4.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/CVS-Data-Science"
+            },
+            {
+                "name": "Kaggle",
+                "link": "https://www.kaggle.com/code/brennankunicki/cvs-data-science"
+            },
+            {
+                "name": "Download",
+                "link": "/portfolio/downloads/projects/DataCleaningVisualization.zip"
+            },
+            {
+                "name": "Presentation",
+                "link": "/portfolio/downloads/projects/CVSDataSciencePresentation.zip"
+            }
+        ],
+        "tags": [22, 63, 12, 13, 15],
+        "description": "During a CVS Data Science Mentorship, I created a Jupyter Notebook which aimed to clean, transform, visualize, and model a prediction algorithm based on anonymized hospital data. Every one of these tasks were programmed in Python, utilizing various libraries such as Pandas, Matplotlib, Seaborn, and Scikit-learn. The brunt of the project consisted of cleaning and transforming the data, which required the use of analytical thinking in order to ascertain the transformations and cleaning required. At the very end of the mentorship, we were instructed to put together an informative presentation to give to our peers, which required various learned presentation design skills, such as proper headlines, trackers, and useful charts.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/DataCleaningVisualization/4.jpg",
+        "time": "September 2024 - November 2024",
+        "role": "Data Scientist",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/DataCleaningVisualization/1.jpg",
+                "caption": "Graph displaying the output of the prediction model. Shows the actual values (expected) versus the model's prediction."
+            },
+            {
+                "link": "/portfolio/images/projects/DataCleaningVisualization/2.jpg",
+                "caption": "Graph displaying the data's relationship to gender and race towards the total charges."
+            },
+            {
+                "link": "/portfolio/images/projects/DataCleaningVisualization/3.jpg",
+                "caption": "Jupyter Notebook containing the creation of the prediction model."
+            },
+            {
+                "link": "/portfolio/images/projects/DataCleaningVisualization/4.jpg",
+                "caption": "Title slide of the final presentation."
+            }
+        ]
+    },
+    "discord_bot": {
+        "category": "Data Science & Automation",
+        "status": "Completed",
+        "name": "Discord Bot",
+        "order": "3",
+        "gallery": [
+            "/portfolio/images/projects/DiscordBot/1.jpg",
+            "/portfolio/images/projects/DiscordBot/2.jpg",
+            "/portfolio/images/projects/DiscordBot/3.jpg",
+            "/portfolio/images/projects/DiscordBot/4.jpg",
+            "/portfolio/images/projects/DiscordBot/5.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Malachite"
+            }
+        ],
+        "tags": [22, 12, 14, 16, 17, 57],
+        "description": "Created as a means to extend my knowledge of Python, this Discord bot contains some features like moderation, leveling, and configuration. The bot mainly contains commands related to managing Discord channels, configurations, leveling features, and more. It additionally contains extra commands related to my accounts and projects. Each part of the bot is very modular, allowing for parts to be added and removed simply by adding and removing files from a folder.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/DiscordBot/5.jpg",
+        "time": "December 2024 - January 2025",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/DiscordBot/1.jpg",
+                "caption": "The bot's help command."
+            },
+            {
+                "link": "/portfolio/images/projects/DiscordBot/2.jpg",
+                "caption": "The bot's stats and server command."
+            },
+            {
+                "link": "/portfolio/images/projects/DiscordBot/3.jpg",
+                "caption": "The bot's leveling system."
+            },
+            {
+                "link": "/portfolio/images/projects/DiscordBot/4.jpg",
+                "caption": "The bot's website commands, displaying my LinkedIn, GitHub, and Portfolio."
+            },
+            {
+                "link": "/portfolio/images/projects/DiscordBot/5.jpg",
+                "caption": "The Visual Studio Code environment used for developing the bot."
+            }
+        ]
+    },
+    "mod_downloader": {
+        "category": "Data Science & Automation",
+        "status": "Completed",
+        "name": "Python Mod Downloader",
+        "order": "6",
+        "gallery": [
+            "/portfolio/images/projects/PythonModDownloader/1.jpg",
+            "/portfolio/images/projects/PythonModDownloader/2.jpg",
+            "/portfolio/images/projects/PythonModDownloader/3.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Python-Mod-Downloader"
+            }
+        ],
+        "tags": [22, 24, 12, 14, 20],
+        "description": "This was my first attempt at creating a Minecraft mod downloader. The main point of the program was to check the user's current mod list version, determine if they need an updated list, and download an updated version as a result. The program was planned to contain an auto updating feature, to allow for updates without any user input needed. However, this never made it into the final version, after I had decided on a successor to this program.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/PythonModDownloader/1.jpg",
+        "time": "September 2023",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/PythonModDownloader/1.jpg",
+                "caption": "The Visual Studio Code environment used for developing the program."
+            },
+            {
+                "link": "/portfolio/images/projects/PythonModDownloader/2.jpg",
+                "caption": "Various checks making use of files and directories at the start of the program."
+            },
+            {
+                "link": "/portfolio/images/projects/PythonModDownloader/3.jpg",
+                "caption": "The terminal window opened by the program, displaying how the user makes interactions."
+            }
+        ]
+    },
+
+    "binary_clock": {
+        "category": "Programming",
+        "status": "Completed",
+        "name": "Binary Clock",
+        "order": "4",
+        "gallery": [
+            "/portfolio/images/projects/BinaryClock/1.jpg",
+            "/portfolio/images/projects/BinaryClock/2.jpg",
+            "/portfolio/images/projects/BinaryClock/3.jpg",
+            "/portfolio/images/projects/BinaryClock/4.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Binary-Clock"
+            },
+            {
+                "name": "Download",
+                "link": "/portfolio/downloads/projects/BinaryClock.zip"
+            }
+        ],
+        "tags": [64, 65, 12, 17],
+        "description": "As extra credit for my Information Technology class, I created a binary clock application in Visual Basic using Windows Form Apps. The application takes current time values, and performs some basic math to display the time in a binary format. I utilized various programming practices to make this application as efficient and easy to read as possible within my current Visual Basic skill level.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/BinaryClock/2.jpg",
+        "time": "December 2024",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/BinaryClock/1.jpg",
+                "caption": "The GUI of the program."
+            },
+            {
+                "link": "/portfolio/images/projects/BinaryClock/2.jpg",
+                "caption": "The beginning of the program, displaying the logic for 'ticking' the clock."
+            },
+            {
+                "link": "/portfolio/images/projects/BinaryClock/3.jpg",
+                "caption": "The update method used for each position of the time, utilizing simple math to calculate which boxes to activate."
+            },
+            {
+                "link": "/portfolio/images/projects/BinaryClock/4.jpg",
+                "caption": "The Visual Studio environment used to develop the program. Displayed is the Visual Basic design window, for developing the GUI."
+            }
+        ]
+    },
+    "mod_downloader_csharp": {
+        "category": "Programming",
+        "status": "Completed",
+        "name": "C# Mod Downloader",
+        "order": "7",
+        "gallery": [
+            "/portfolio/images/projects/CSharpModDownloader/1.jpg",
+            "/portfolio/images/projects/CSharpModDownloader/2.jpg",
+            "/portfolio/images/projects/CSharpModDownloader/3.jpg",
+            "/portfolio/images/projects/CSharpModDownloader/4.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/CSharp-Mod-Downloader"
+            }
+        ],
+        "tags": [67, 24, 12, 14, 20, 68],
+        "description": "Similar to the my Python Mod Downloader, this project aims to accomplish the same goal of downloading and configuring a Minecraft modpack. However, this version lacks any self updating features, due to another project becoming this one's successor as well. This project also contains additional Minecraft shaderpack downloading, allowing the user to automatically download a shaderpack, which moves itself to the correct folders once downloaded.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/CSharpModDownloader/4.jpg",
+        "time": "November 2023",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/CSharpModDownloader/1.jpg",
+                "caption": "The terminal window displaying how the user interacts with the program."
+            },
+            {
+                "link": "/portfolio/images/projects/CSharpModDownloader/2.jpg",
+                "caption": "Method used to auto-update the program with a new version hosted on a download link."
+            },
+            {
+                "link": "/portfolio/images/projects/CSharpModDownloader/3.jpg",
+                "caption": "Another display of user interaction with the terminal window, displaying a snippet of the process of using the program."
+            },
+            {
+                "link": "/portfolio/images/projects/CSharpModDownloader/4.jpg",
+                "caption": "The Visual Studio environment used to develop the program."
+            }
+        ]
+    },
+    "cryptography_speed_test": {
+        "category": "Programming",
+        "status": "Completed",
+        "name": "Cryptography Speed Test -- REMAKE!!!!!!!! (with libraries)",
+        "order": "0",
+        "gallery": [
+            "/portfolio/images/projects/TankStrike/Example1.png",
+            "/portfolio/images/projects/TankStrike/Example2.png",
+            "/portfolio/images/projects/TankStrike/Example3.png",
+            "/portfolio/images/projects/TankStrike/Example4.png",
+            "/portfolio/images/projects/TankStrike/Example5.png"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": ""
+            },
+            {
+                "name": "Download",
+                "link": ""
+            }
+        ],
+        "tags": [30, 69, 12, 16, 15],
+        "description": "Template Description",
+        "visibility": "hidden",
+
+        "banner": "/portfolio/images/projects/TankStrike/Example5.png",
+        "time": "March 2024",
+        "role": "",
+        "pictures": [
+            {
+                "link": "",
+                "caption": ""
+            }
+        ]
+    },
+    "modpack_manager": {
+        "category": "Programming",
+        "status": "Completed",
+        "name": "Modpack Manager",
+        "order": "5",
+        "gallery": [
+            "/portfolio/images/projects/ModpackManager/2.jpg",
+            "/portfolio/images/projects/ModpackManager/1.jpg",
+            "/portfolio/images/projects/ModpackManager/3.jpg",
+            "/portfolio/images/projects/ModpackManager/4.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Modpack-Manager"
+            },
+            {
+                "name": "Download",
+                "link": "/portfolio/downloads/projects/ModpackManager.zip"
+            }
+        ],
+        "tags": [67, 66, 3, 56, 24, 68],
+        "description": "Template Description",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/ModpackManager/1.jpg",
+        "time": "December 2023",
+        "role": "",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/ModpackManager/1.jpg",
+                "caption": "The Visual Studio environment used to develop the program, displaying the WPF interface."
+            },
+            {
+                "link": "/portfolio/images/projects/ModpackManager/2.jpg",
+                "caption": "Methods relating to the tab switching functionality of the program."
+            },
+            {
+                "link": "/portfolio/images/projects/ModpackManager/3.jpg",
+                "caption": "Data structures showing the way files are handled within the program."
+            },
+            {
+                "link": "/portfolio/images/projects/ModpackManager/4.jpg",
+                "caption": "The main GUI of the program."
+            }
+        ]
+    },
+
+    "forlorn": {
+        "category": "Game Development",
+        "status": "Completed",
+        "name": "Forlorn",
+        "order": "1",
+        "gallery": [
+            "/portfolio/images/projects/Forlorn/1.jpg",
+            "/portfolio/images/projects/Forlorn/2.jpg",
+            "/portfolio/images/projects/Forlorn/3.jpg"
+        ],
+        "links": [
+            {
+                "name": "Itch",
+                "link": "https://brenman60.itch.io/forlorn"
+            },
+            {
+               "name": "Download",
+               "link": "https://github.com/brenman60/Forlorn-Page/releases/latest/download/Windows.zip"
+            },
+            {
+                "name": "Google Play",
+                "link": "https://play.google.com/store/apps/details?id=com.brenman60Games.Forlorn"
+            },
+            {
+                "name": "Project Website",
+                "link": "https://gameprojectforlornsite-1-10881469.codehs.me/index.html"
+            }
+        ],
+        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17, 74, 75],
+        "description": "Created during a game development project in my Information Technology class, Forlorn was based off the theme of immigration. In this project, everyone worked in pairs to create both a game and website. In my case, my partner worked on the game's website, while I worked on the game. During the project, each group was instructed to create a project planner to organize and visualize their progress, detailing all the tasks each member of the group was to work on. Finally, at the end of the project we were to create poster boards with information on our games, as a form of advertisement, and present them in an open-house style format to students who came by. Additionally, our teacher held a voting station where viewers of the presentations could vote on which game they found to be most enjoyable, which Forlorn ended up winning 1st place.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/Forlorn/6.jpg",
+        "time": "October 2024 - December 2024",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/Forlorn/1.jpg",
+                "caption": "Gameplay screenshot displaying the player running through the city during a snowstorm event."
+            },
+            {
+                "link": "/portfolio/images/projects/Forlorn/2.jpg",
+                "caption": "Gameplay screenshot displaying the player running through the city during a police event."
+            },
+            {
+                "link": "/portfolio/images/projects/Forlorn/3.jpg",
+                "caption": "Gameplay screenshot of the game's unlockable skill tree."
+            },
+            {
+                "link": "/portfolio/images/projects/Forlorn/4.jpg",
+                "caption": "The project plan used to organize the work between me and my partner. Shows tasks, dates, and completion status."
+            },
+            {
+                "link": "/portfolio/images/projects/Forlorn/5.jpg",
+                "caption": "The Visual Studio environment used for the programming of the game."
+            },
+            {
+                "link": "/portfolio/images/projects/Forlorn/6.jpg",
+                "caption": "The Unity environment used for the bulk of the game's development."
+            }
+        ]
+    },
+    "tank_strike": {
+        "category": "Game Development",
+        "status": "Unfinished",
+        "name": "Tank Strike",
+        "order": "0",
+        "gallery": [
+            "/portfolio/images/projects/TankStrike/Example1.png",
+            "/portfolio/images/projects/TankStrike/Example2.png",
+            "/portfolio/images/projects/TankStrike/Example3.png",
+            "/portfolio/images/projects/TankStrike/Example4.png",
+            "/portfolio/images/projects/TankStrike/Example5.png"
+        ],
+        "links": [
+            {
+                "name": "Steam",
+                "link": "https://store.steampowered.com/app/2495480/Tank_Strike/"
+            },
+            {
+                "name": "YouTube",
+                "link": "https://youtube.com/playlist?list=PLmDPpeJXClQjHRi6ZJlzC3iMV5KFEbVhZ&si=OIK_jWvNjoGl_ca0"
+            }
+        ],
+        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17],
+        "description": "Template Description",
+        "visibility": "hidden",
+
+        "banner": "/portfolio/images/projects/TankStrike/Example5.png",
+        "time": "April 2022 - Present",
+        "role": "",
+        "pictures": [
+            {
+                "link": "",
+                "caption": ""
+            }
+        ]
+    },
+    "darkening": {
+        "category": "Game Development",
+        "status": "Completed",
+        "name": "Darkening",
+        "order": "0",
+        "gallery": [
+            "/portfolio/images/projects/TankStrike/Example1.png",
+            "/portfolio/images/projects/TankStrike/Example2.png",
+            "/portfolio/images/projects/TankStrike/Example3.png",
+            "/portfolio/images/projects/TankStrike/Example4.png",
+            "/portfolio/images/projects/TankStrike/Example5.png"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Darkening"
+            },
+            {
+                "name": "Itch",
+                "link": "https://brenman60.itch.io/darkening"
+            }
+        ],
+        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17],
+        "description": "Template Description",
+        "visibility": "hidden",
+
+        "banner": "/portfolio/images/projects/TankStrike/Example5.png",
+        "time": "August 2023",
+        "role": "",
+        "pictures": [
+            {
+                "link": "",
+                "caption": ""
+            }
+        ]
+    }
+}

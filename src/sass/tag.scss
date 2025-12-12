@@ -1,0 +1,27 @@
+@use "colors.scss";
+
+.tag {
+    position: relative;
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color: rgba(colors.$background1, 0.5);
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: colors.$background3;
+    cursor: default;
+
+    transition: background-color 0.15s ease-in-out;
+
+    &:hover {
+        background-color: rgba(colors.$background3, 1);
+    }
+}
+
+.tag > p {
+    width: auto;
+    margin: auto;
+}

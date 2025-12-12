@@ -1,0 +1,72 @@
+@use "colors.scss";
+@import "glowEffect";
+@import "button";
+
+.certificationsGroup {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(colors.$background3, 0.5);
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.certGroupTitle {
+    width: 90%;
+    font-size: clamp(1em, 5vw, 2.5em);
+    color: colors.$text;
+    font-weight: bold;
+}
+
+.certificationsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    transition: height 0.5s ease-in-out;
+}
+
+.certificationsList.closed {
+    overflow: hidden;
+}
+
+.certGroupButtonWrapper {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+.certGroupButton {
+    position: absolute;
+    display: block;
+    color: colors.$text;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    z-index: 2;
+    cursor: pointer;
+
+    @include button();
+}
+
+.certGroupButton.disabled {
+    pointer-events: none;
+}
+
+.certGroupFooter {
+    background-color: colors.$background2;
+    width: 100%;
+    height: 5px;
+    border-radius: 25px;
+    opacity: 0.25;
+    margin-left: auto;
+    margin-right: auto;
+}

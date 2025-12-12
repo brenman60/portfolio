@@ -1,0 +1,26 @@
+@use "colors.scss";
+
+#notFoundTitle {
+    color: colors.$text;
+    margin: 25px 25px 75px 25px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#notFoundButton {
+    position: relative;
+    display: block;
+    color: colors.$text;
+    background-color: rgba(colors.$background2, 0.25);
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: clamp(175px, 25%, 500px);
+    font-size: 1.25em;
+    border-radius: 5px;
+
+    transition: background-color 0.15s ease-in;
+    &:hover {
+        background-color: rgba(colors.$background2, 0.75);
+    }
+}

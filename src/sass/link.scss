@@ -1,0 +1,48 @@
+@use "colors.scss";
+
+.link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(colors.$background2, 0.35);
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(colors.$background4, 0.25);
+
+    transition: all 0.1s ease-in;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(colors.$background2, 1);
+        border-color: rgba(colors.$text, 0.25);
+    }
+}
+
+.linkIcon {
+    position: relative;
+    display: block;
+    padding: 5px;
+    margin-bottom: 15px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    top: 50%;
+    transform: translateY(-75%);
+}
+
+.linkTitle {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    color: colors.$text;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+}

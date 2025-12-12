@@ -1,0 +1,92 @@
+@keyframes glowMove {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% -100%;
+  }
+  50% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.certificationsGroup {
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(27, 27, 27, 0.5);
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.certGroupTitle {
+  width: 90%;
+  font-size: clamp(1em, 5vw, 2.5em);
+  color: #EDEDED;
+  font-weight: bold;
+}
+
+.certificationsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  transition: height 0.5s ease-in-out;
+}
+
+.certificationsList.closed {
+  overflow: hidden;
+}
+
+.certGroupButtonWrapper {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+.certGroupButton {
+  position: absolute;
+  display: block;
+  color: #EDEDED;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 2;
+  cursor: pointer;
+}
+.certGroupButton {
+  background-color: rgba(43, 43, 43, 0.35);
+  border-color: rgba(237, 237, 237, 0.25);
+  transition: background-color 0.15s ease-in, border-color 0.15s ease-in;
+}
+.certGroupButton:hover {
+  border-width: 1px;
+  background-color: #2b2b2b;
+  border-color: rgba(237, 237, 237, 0.75);
+}
+
+.certGroupButton.disabled {
+  pointer-events: none;
+}
+
+.certGroupFooter {
+  background-color: #2B2B2B;
+  width: 100%;
+  height: 5px;
+  border-radius: 25px;
+  opacity: 0.25;
+  margin-left: auto;
+  margin-right: auto;
+}

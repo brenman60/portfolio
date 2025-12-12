@@ -1,0 +1,18 @@
+@use "./colors.scss";
+
+$mobileWidth: 1250px;
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+#root {
+    margin-bottom: 150px;
+    font-size: 75%;
+}
+
+html {
+    background-color: colors.$background1;
+    overflow-y: scroll;
+}

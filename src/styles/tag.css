@@ -1,0 +1,23 @@
+.tag {
+  position: relative;
+  display: flex;
+  width: auto;
+  margin: auto;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #1b1b1b;
+  cursor: default;
+  transition: background-color 0.15s ease-in-out;
+}
+.tag:hover {
+  background-color: #1b1b1b;
+}
+
+.tag > p {
+  width: auto;
+  margin: auto;
+}

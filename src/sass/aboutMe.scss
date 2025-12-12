@@ -1,0 +1,294 @@
+@use "colors.scss";
+@use "universal.scss";
+
+#aboutMeInfo {
+    display: grid;
+    row-gap: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-items: center;
+    align-items: center;
+}
+
+#aboutDescriptionTitle {
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    color: colors.$text;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 15px;
+    cursor: default;
+
+    &::after {
+        position: absolute;
+        content: "";
+        height: 5px;
+        background-color: rgba(colors.$text, 0);
+        width: 0%;
+        left: 50%;
+        bottom: 0;
+        border-radius: 15px;
+    
+        transition: all 0.75s ease-out;
+    }
+
+    &:hover::after {
+        width: 100%;
+        left: 0;
+        background-color: rgba(colors.$text, 0.75);
+    }
+}
+
+#aboutDescription {
+    font-size: 1.5em;
+    color: colors.$text;
+    background-color: rgba(colors.$background2, 0.25);
+    padding: 25px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#topSkillsTitle {
+    margin: auto;
+    color: colors.$text;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#topSkills {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: auto;
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(colors.$background2, 0.25);
+    color: colors.$text;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#aboutMeTags {
+    color: colors.$text;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 150px;
+    padding-top: 50px;
+    overflow: hidden;
+
+    transition: height 2s ease;
+    &.closed {
+        $mask: linear-gradient(to bottom, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0) 100%);
+
+        -webkit-mask-image: $mask;
+        mask-image: $mask;
+    }
+}
+
+.aboutMeTag {
+    width: 40%;
+    height: fit-content;
+    position: relative;
+    padding-bottom: 15px;
+    background-color: rgba(colors.$background2, 0.25);
+    border-radius: 5px;
+
+    transition: all 0.3s ease-out;
+    &.starred {
+        //animation: backgroundGlow 5s infinite;
+        background: linear-gradient(0deg, transparent, rgba(colors.$lightGold, 0.15), rgba(colors.$background2, 0.25));
+        background-size: 100% 200%;
+        background-position: 0% 100%;
+    }
+
+    &:hover {
+        background-position: 0% 85%;
+    }
+
+    .aboutMeTagName {
+        // Name
+        display: flex;
+        position: relative;
+        font-size: clamp(0.25rem, 5vw, 2em);
+        font-weight: bold;
+        width: fit-content;
+        justify-self: center;
+        text-align: center;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .aboutMeTagLevel {
+        // Level Container
+        width: 95%;
+        margin: auto;
+        margin-bottom: 15px;
+
+        > h1 {
+            // Level Container Title
+            font-size: 1.25em;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        > div {
+            // Level "Progress" Bar Container
+            width: 100%;
+            height: 10px;
+            margin: auto;
+            background-color: rgba(colors.$background4, 0.25);
+
+            > div {
+                // "Progress" Bar
+                background-color: rgba(colors.$success, 0.5);
+                height: 100%;
+                box-shadow: 0px 0px 5px 1px rgba(colors.$success, 0.5);
+                filter: brightness(125%);
+            }
+        }
+    }
+
+    .aboutMeTagLength {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: clamp(0.25rem, 4vw, 1.5em);
+
+        .aboutMeTagYears {
+            display: inline;
+            position: relative;
+            margin-right: 15px;
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: clamp(0.25rem, 5vw, 1.75em);
+
+            // &::after {
+            //     content: "";
+            //     display: block;
+            //     position: absolute;
+            //     width: 100%;
+            //     height: 75%;
+            //     left: 0;
+            //     top: 12.5%;
+            //     padding: 5px;
+            //     animation: placementGlow 2.5s infinite;
+            //     z-index: -1;
+            //     border-radius: 5px;
+            //     background: linear-gradient(90deg, transparent, rgba(colors.$success, 0.5), transparent);
+            //     background-size: 200% 100%;
+            //     filter: blur(10px);
+            // }
+        }
+    
+        .aboutMeTagYearsCaption {
+            display: inline;
+        }
+    }
+}
+
+#aboutMeTagsExpand {
+    display: flex;
+    position: relative;
+    margin-top: -250px;
+    z-index: 1;
+    color: colors.$text;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(colors.$background2, 0.75);
+    border-color: rgba(colors.$background4, 0.5);
+    border-radius: 5px;
+    border-width: 1px;
+
+    transition: all 0.3s ease-out, opacity 0.1s ease-out;
+    &.open {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    &.closed {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &:hover {
+        border-color: rgba(colors.$background4, 0.75);
+        border-radius: 15px;
+        width: 275px;
+    }
+}
+
+@media (min-width: 800px) {
+    // PC
+    #aboutMeContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #aboutMeColumn1 {
+        grid-column: 1;
+    }
+
+    #aboutMeColumn2 {
+        grid-column: 2;
+    }
+}
+
+@media (max-width: 800px) {
+    // Mobile
+    #aboutMeContainer {
+        grid-template-columns: 1fr;
+    }
+
+    #aboutMeColumn1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #aboutMeColumn2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+@keyframes placementGlow {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes backgroundGlow {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 0% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}

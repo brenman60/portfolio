@@ -1,0 +1,14 @@
+@mixin button() {
+    & {
+        background-color: rgba(colors.$background2, 0.35);
+        border-color: rgba(colors.$text, 0.25);
+        transition: background-color 0.15s ease-in, border-color 0.15s ease-in;
+    }
+
+
+    &:hover {
+        border-width: 1px;
+        background-color: rgba(colors.$background2, 1);
+        border-color: rgba(colors.$text, 0.75);
+    }
+}

@@ -1,0 +1,12 @@
+.resume {
+  width: 35%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: rgba(43, 43, 43, 0.35);
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #1b1b1b;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}

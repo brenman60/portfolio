@@ -1,0 +1,122 @@
+@use "colors.scss";
+@use "universal.scss";
+
+$navHeightRaw: 75;
+$navHeight: $navHeightRaw + px;
+
+#nav {
+  height: $navHeight;
+  background-color: colors.$background2;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  list-style-type: none;
+  z-index: 100;
+  gap: clamp(10px, 0.5vw, 1.5vw);
+  white-space: nowrap;
+}
+
+.navLink {
+  color: colors.$text;
+  padding-left: 35px;
+  padding-right: 35px;
+  align-content: center;
+  margin: 0px;
+  text-align: center;
+  height: 100%;
+  font-size: clamp(0.75em, 1.5em, 1.5em);
+  border-bottom: colors.$heading;
+  border-style: solid;
+  border-bottom-width: 0px;
+}
+
+#nav .navLink:hover {
+  background-color: colors.$background1;
+}
+
+#headerNav {
+  height: $navHeight;
+  width: 100%;
+  background-color: colors.$background2;
+  display: flex;
+  align-items: center;
+  float: left;
+}
+
+.navHeader {
+  color: colors.$text;
+  padding: 15px;
+  margin: 0px;
+  text-align: left;
+}
+
+#hamburgerNav {
+  display: none;
+}
+
+@media (min-width: universal.$mobileWidth) {
+  .navLink.active {
+    border-bottom-width: 3px;
+  }
+}
+
+@media (max-width: universal.$mobileWidth) {
+  // Mobile
+  #nav {
+    background-color: transparent;
+    display: inline;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    margin-top: $navHeight;
+    overflow: hidden;
+    border: none;
+    pointer-events: none;
+  }
+
+  .navLink {
+    display: block;
+    background-color: colors.$background2;
+    z-index: 1;
+
+    border-width: 0px;
+    border: none;
+  }
+
+  #nav .navLink {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    left: 100vw;
+    opacity: 0%;
+    pointer-events: none;
+  }
+
+  #nav .navLink.visible {
+    left: 0;
+    opacity: 100%;
+    pointer-events: all;
+  }
+
+  #hamburgerNav {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: $navHeight;
+    width: $navHeight;
+    aspect-ratio: 1 / 1;
+    font-size: 1.25em;
+    color: colors.$text;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #hamburgerNav:hover {
+    text-decoration: underline;
+  }
+}

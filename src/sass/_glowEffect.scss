@@ -1,0 +1,49 @@
+@mixin glowEffect($radius: 15px, $blur: 5px, $opacity: 0.5, $animationDuration: 1s) {
+    &::before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -4px;
+        z-index: 1;
+        border-radius: $radius;
+        background: linear-gradient(to top, rgba(colors.$heading, 0.05), rgba(colors.$heading, 1), rgba(colors.$heading, 0.05));
+        background-repeat: repeat;
+        background-size: 200% 200%;
+
+        animation-name: glowMove;
+        animation-duration: $animationDuration;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+
+        filter: blur($blur);
+        opacity: 0;
+        transition: opacity 0.15s ease-in;
+        pointer-events: none;
+    }
+
+    &:hover {
+        &::before {
+            opacity: $opacity;
+        }
+    }
+}
+
+@keyframes glowMove {
+    0% {
+        background-position: 0% 100%;
+    }
+    50% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 0% -100%;
+    }
+    50% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
+}

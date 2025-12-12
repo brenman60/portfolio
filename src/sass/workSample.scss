@@ -1,0 +1,198 @@
+@use "colors.scss";
+@import "button";
+
+.workSample {
+    position: relative;
+    width: 550px;
+    height: auto;
+    background-color: rgba(colors.$background2, 0.35);
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(colors.$background4, 0.25);
+    color: colors.$text;
+
+    transition: opacity 0.5s ease-in 0.1s;
+
+    &.open {
+        opacity: 1;
+    }
+
+    &.closed {
+        opacity: 0;
+    }
+}
+
+.workOrganization {
+    top: 5;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+
+    p {
+        padding: 2px 5px 2px 5px;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+}
+
+.workCategory {
+    background-color: rgba(colors.$heading, 0.35);
+    border-color: rgba(colors.$heading, 0.5);
+    transition: opacity 0.15s ease-in;
+    cursor: default;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.workStatus {
+    background-color: rgba(colors.$heading, 0.35);
+    border-color: rgba(colors.$heading, 0.5);
+    transition: opacity 0.15s ease-in;
+    cursor: default;
+
+    &:hover {
+        opacity: 0.75;
+    }
+}
+
+.workStatus.completed {
+    background-color: rgba(colors.$success, 0.35);
+    border-color: rgba(colors.$success, 0.5);
+}
+
+.workStatus.unfinished {
+    background-color: rgba(colors.$error, 0.35);
+    border-color: rgba(colors.$error, 0.5);
+}
+
+.workTime {
+    display: inline-block;
+    margin-top: 45px;
+    background-color: rgba(colors.$background2, 0.35);
+    padding: 0px 5px 0px 5px;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0px rgba(colors.$text, 0.25);
+    cursor: default;
+
+    transition: all 0.15s ease-in;
+    &:hover {
+        background-color: rgba(colors.$background2, 1);
+        box-shadow: inset 0 0 0 1px rgba(colors.$text, 0.75);
+    }
+}
+
+.workGallery {
+    margin-top: 10px;
+    position: relative;
+}
+
+.workGalleryLeft {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width: 30px;
+    height: 35px;
+    z-index: 1;
+    transform: translateY(-50%);
+    background-color: rgba(colors.$background3, 0.5);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+
+    &:hover {
+        //font-size: 2.05em;
+        transform: translateY(-50%) translateX(-5%);
+    }
+}
+
+.workGalleryImageContainer {
+    $mask: linear-gradient(to bottom, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0) 100%);
+
+    -webkit-mask-image: $mask;
+    mask-image: $mask;
+
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgba(colors.$background3, 0.5);
+
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.workGalleryImage {
+    width: 100%;
+    height: auto;
+
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.workGalleryRight {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 30px;
+    height: 35px;
+    z-index: 1;
+    transform: translateY(-50%) scaleX(-1);
+    background-color: rgba(colors.$background3, 0.5);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    transition: all 0.15s ease-in;
+    cursor: pointer;
+
+    &:hover {
+        //font-size: 2.05em;
+        transform: translateY(-50%) translateX(5%) scaleX(-1);
+    }
+}
+
+.workName {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.workLearnMore {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    font-size: 1.15em;
+    margin-top: 10px;
+    background-color: rgba(colors.$link, 0.25);
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgba(colors.$link, 0.5);
+    cursor: pointer;
+
+    transition: background-color 0.15s ease-in, border-radius 0.15s ease-in, width 0.15s ease-in;
+
+    &:hover {
+        background-color: rgba(colors.$link, 0.5);
+        border-radius: 15px;
+        //width: 90%;
+    }
+}
+
+.workTags {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
