@@ -1,0 +1,72 @@
+{
+    "skillsusa_district_computer_programming": {
+        "title": "SkillsUSA Districts: Computer Programming",
+        "placement": "1st Within District",
+        "date": "March 2025",
+        "description": "Competed in the District SkillsUSA test at Greater Lowell Technical High School, winning 1st place among the students within the district in Computer Programming.",
+        "visibility": "visible"
+    },
+    "skillsusa_district_web_design": {
+        "title": "SkillsUSA Districts: Web Design",
+        "placement": "3rd Within District",
+        "date": "March 2024",
+        "description": "Competed in the District SkillsUSA test at Greater Lowell Technical High School, winning 3rd place among the students within the district in Web Design.",
+        "visibility": "visible"
+    },
+    "skillsusa_inhouse_computer_programming": {
+        "title": "SkillsUSA In-House: Computer Programming",
+        "placement": "1st Schoolwide",
+        "date": "January 2025",
+        "description": "Competed in the In-House SkillsUSA test at Greater Lowell Technical High School, scoring 1st place above every other IT student in Computer Programming.",
+        "visibility": "visible"
+    },
+    "skillsusa_inhouse_information_technology_services": {
+        "title": "SkillsUSA In-House: Information Technology Services",
+        "placement": "2nd Schoolwide",
+        "date": "January 2025",
+        "description": "Competed in the In-House SkillsUSA test at Greater Lowell Technical High School, scoring 2nd place among every other IT student in Information Technology Services.",
+        "visibility": "visible"
+    },
+    "skillsusa_inhouse_cybersecurity": {
+        "title": "SkillsUSA In-House: Cybersecurity",
+        "placement": "3rd Schoolwide",
+        "date": "January 2025",
+        "description": "Competed in the In-House SkillsUSA test at Greater Lowell Technical High School, scoring 3rd place among every other IT student in Cybersecurity.",
+        "visibility": "visible"
+    },
+    "skillsusa_inhouse_internetworking": {
+        "title": "SkillsUSA In-House: Internetworking",
+        "placement": "3rd Schoolwide",
+        "date": "January 2025",
+        "description": "Competed in the In-House SkillsUSA test at Greater Lowell Technical High School, scoring 3rd place among every other IT student in Internetworking.",
+        "visibility": "visible"
+    },
+    "gltech_special_recognition": {
+        "title": "Special Recognition",
+        "placement": "Within Information Technology",
+        "date": "June 2024",
+        "description": "Was chosen for the Special Recognition award for my performance in Information Technology during my Sophomore year of high school.",
+        "visibility": "visible"
+    },
+    "gltech_perfect_attendance": {
+        "title": "Perfect Attendance",
+        "placement": "",
+        "date": "June 2025",
+        "description": "Earned the Perfect Attendance award during my Junior year of high school.",
+        "visibility": "visible"
+    },
+    "gltech_high_honor_roll": {
+        "title": "High Honor Roll",
+        "placement": "",
+        "date": "2022 - 2026",
+        "description": "Earned High Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 1 & 3 \n- Sophomore Year: Terms 3 & 4 \n- Junior Year: TBD \n- Senior Year: TBD",
+        "visibility": "visible"
+    },
+    "gltech_honor_roll": {
+        "title": "Honor Roll",
+        "placement": "",
+        "date": "2022 - 2026",
+        "description": "Earned Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 2 & 4 \n- Sophomore Year: Term 2 \n- Junior Year: TBD \n- Senior Year: TBD",
+        "visibility": "visible"
+    }
+}
