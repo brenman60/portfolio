@@ -21,11 +21,11 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/DataCleaningVisualization.zip"
+                "link": "https://github.com/brenman60/CVS-Data-Science/releases/latest/download/Source.zip"
             },
             {
                 "name": "Presentation",
-                "link": "/portfolio/downloads/projects/CVSDataSciencePresentation.zip"
+                "link": "/portfolio/downloads/projects/CVSDataSciencePresentation.pdf"
             }
         ],
         "tags": [22, 63, 12, 13, 15],
@@ -197,7 +197,7 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/BinaryClock.zip"
+                "link": "https://github.com/brenman60/Binary-Clock/releases/latest/download/Windows.zip"
             }
         ],
         "tags": [64, 65, 12, 17],
@@ -323,7 +323,7 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/ModpackManager.zip"
+                "link": "https://github.com/brenman60/Modpack-Manager/releases/latest/download/Windows.zip"
             }
         ],
         "tags": [67, 66, 3, 56, 24, 68],
