@@ -3,7 +3,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Data Cleaning & Visualization",
-        "order": "2",
+        "order": "3",
         "gallery": [
             "/portfolio/images/projects/DataCleaningVisualization/1.jpg",
             "/portfolio/images/projects/DataCleaningVisualization/2.jpg",
@@ -58,7 +58,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Discord Bot",
-        "order": "3",
+        "order": "4",
         "gallery": [
             "/portfolio/images/projects/DiscordBot/1.jpg",
             "/portfolio/images/projects/DiscordBot/2.jpg",
@@ -102,11 +102,49 @@
             }
         ]
     },
+    "classroom_notify": {
+        "category": "Data Science & Automation",
+        "status": "Completed",
+        "name": "Classroom Notify",
+        "order": "2",
+        "gallery": [
+            "/portfolio/images/projects/ClassroomNotify/1.jpg",
+            "/portfolio/images/projects/ClassroomNotify/2.jpg",
+            "/portfolio/images/projects/ClassroomNotify/3.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/ClassroomNotify"
+            }
+        ],
+        "tags": [22, 12, 14, 16, 37, 63, 8],
+        "description": "The influx of assignments and changes of due dates my Junior year of high school inspired me to create a Discord bot that would notify users of any changes to selected Google Classroom classes. The bot utilizes the Google Calendar API in the Google Cloud Platform to subscribe to webhooks on each classroom's calendar, allowing the bot to be notified of any changes to assignments within the calendar. After being notified, the bot then runs various checks to determine if the assignment is newly posted, or if the due date was modified. After processing through the changes, the bot then sends messages in designated Discord channels notifying users of the updates.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/ClassroomNotify/3.jpg",
+        "time": "March 2025 - August 2025",
+        "role": "Programmer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/ClassroomNotify/1.jpg",
+                "caption": "The functionality for registering classes to be notified of."
+            },
+            {
+                "link": "/portfolio/images/projects/ClassroomNotify/2.jpg",
+                "caption": "The bot automatically notifying users of a new assignment and a changed due date."
+            },
+            {
+                "link": "/portfolio/images/projects/ClassroomNotify/3.jpg",
+                "caption": "The Visual Studio Code environment used for developing the bot."
+            }
+        ]
+    },
     "mod_downloader": {
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Python Mod Downloader",
-        "order": "6",
+        "order": "7",
         "gallery": [
             "/portfolio/images/projects/PythonModDownloader/1.jpg",
             "/portfolio/images/projects/PythonModDownloader/2.jpg",
@@ -145,7 +183,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "Binary Clock",
-        "order": "4",
+        "order": "5",
         "gallery": [
             "/portfolio/images/projects/BinaryClock/1.jpg",
             "/portfolio/images/projects/BinaryClock/2.jpg",
@@ -192,7 +230,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "C# Mod Downloader",
-        "order": "7",
+        "order": "8",
         "gallery": [
             "/portfolio/images/projects/CSharpModDownloader/1.jpg",
             "/portfolio/images/projects/CSharpModDownloader/2.jpg",
@@ -271,7 +309,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "Modpack Manager",
-        "order": "5",
+        "order": "6",
         "gallery": [
             "/portfolio/images/projects/ModpackManager/2.jpg",
             "/portfolio/images/projects/ModpackManager/1.jpg",
@@ -289,7 +327,7 @@
             }
         ],
         "tags": [67, 66, 3, 56, 24, 68],
-        "description": "Template Description",
+        "description": "Inspired by my previous mod downloaders' purely console nature, I wanted to create a mod downloader with the same functionality but a more user-friendly UI. Utilizing WPF in C#, I created a modpack manager which allows users to select out of any available modpacks, and have the application automatically download all the mods within it to their Minecraft installation folder. The application features a mod list viewer which looks into the .jars themselves for mod information, as well as a mod selection list which can allow the user to enable and disable certain mods. The application also contains self-updating features to ensure users are always using the most recent version.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/ModpackManager/1.jpg",
@@ -419,11 +457,7 @@
         "name": "Darkening",
         "order": "0",
         "gallery": [
-            "/portfolio/images/projects/TankStrike/Example1.png",
-            "/portfolio/images/projects/TankStrike/Example2.png",
-            "/portfolio/images/projects/TankStrike/Example3.png",
-            "/portfolio/images/projects/TankStrike/Example4.png",
-            "/portfolio/images/projects/TankStrike/Example5.png"
+            "/portfolio/images/projects/Darkening/1.png"
         ],
         "links": [
             {
@@ -439,7 +473,7 @@
         "description": "Template Description",
         "visibility": "hidden",
 
-        "banner": "/portfolio/images/projects/TankStrike/Example5.png",
+        "banner": "/portfolio/images/projects/Darkening/1.png",
         "time": "August 2023",
         "role": "",
         "pictures": [
