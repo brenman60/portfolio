@@ -18,7 +18,7 @@ const WorkSamplePage = () => {
   const imageViewerRef = useRef();
 
   useEffect(() => {
-    fetch("../data/workSamples.json")
+    fetch("data/workSamples.json")
     .then(response => response.json())
     .then(jsonData => setWorkSample(jsonData[id]))
     .catch(error => console.error("Error loading JSON: ", error));
