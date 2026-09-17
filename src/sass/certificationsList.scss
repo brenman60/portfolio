@@ -9,9 +9,19 @@
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: rgba(colors.$background3, 0.5);
+    background-color: rgba(colors.$background2, 0.35);
     padding: 25px;
+    padding-bottom: 0px;
     border-radius: 15px;
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
+    }
 }
 
 .certGroupTitle {
@@ -27,9 +37,14 @@
     gap: 30px;
     justify-content: center;
     margin-top: 25px;
-    margin-bottom: 25px;
 
-    transition: height 0.5s ease-in-out;
+    overflow: hidden;
+
+    transition: height 0.25s ease-in-out, margin-bottom 0.5s ease-in-out;
+
+    &.open {
+        margin-bottom: 25px;
+    }
 }
 
 .certificationsList.closed {
@@ -54,7 +69,29 @@
     z-index: 2;
     cursor: pointer;
 
-    @include button();
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.5);
+        border-radius: 15px;
+    }
+
+    & > img {
+        width: 75%;
+        height: 75%;
+        margin: auto;
+        transform: rotate(180deg);
+        opacity: 0.5;
+
+        transition: all 0.25s ease-out;
+
+        &.open {
+            transform: rotate(0deg);
+        }
+    }
 }
 
 .certGroupButton.disabled {

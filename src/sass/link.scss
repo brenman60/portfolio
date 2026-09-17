@@ -12,14 +12,15 @@
     background-color: rgba(colors.$background2, 0.35);
     border-radius: 5px;
     border-width: 1px;
-    border-color: rgba(colors.$background4, 0.25);
+    border-color: rgba(colors.$outlineGeneral, 0.25);
 
-    transition: all 0.1s ease-in;
+    transition: all 0.25s ease-in;
 
     &:hover {
         cursor: pointer;
         background-color: rgba(colors.$background2, 1);
-        border-color: rgba(colors.$text, 0.25);
+        border-color: rgba(colors.$outline, 0.25);
+        border-radius: 15px;
     }
 }
 

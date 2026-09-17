@@ -10,20 +10,23 @@ const Contact = () => {
   const contacts = {
     "LinkedIn": "https://www.linkedin.com/in/brennan-kunicki-55a83a30a",
     "GitHub": "https://github.com/brenman60",
-    "Itch": "https://brenman60.itch.io/",
-    "Steam": "https://store.steampowered.com/search/?publisher=brenman60%20Games",
+    "Itch": "https://brenman60.itch.io/"
   };
 
   return (
     <motion.div
       key="contact"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ type: "tween", duration: 0.5, ease: "anticipate" }}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -12 }}
+      transition={{
+        duration: 0.45, 
+        ease: [0.16, 1, 0.3, 1]
+      }}
     >
       <Hero title="Contact" />
-      <PageDivider height="4px" width="80%" opacity="0.5" />
+      <PageDivider height="4px" width="80%" />
+      <a id="contactEmail" href="mailto:brennankunicki@gmail.com">brennankunicki@gmail.com</a>
       <ul id="contactList">
         {Object.entries(contacts).map(([name, link]) => (
           <li key={name} className="contactLink">
@@ -31,7 +34,6 @@ const Contact = () => {
           </li>
         ))}
       </ul>
-      <a id="contactEmail" href="mailto:brennankunicki@gmail.com">brennankunicki@gmail.com</a>
     </motion.div>
   );
 };

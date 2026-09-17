@@ -28,6 +28,24 @@
     font-weight: bold;
     font-size: 3em;
     text-align: center;
+
+    &.workSampleRole {
+        font-size: 2em;
+        font-weight: 400;
+        margin: auto;
+        width: 75%;
+        padding: 15px;
+        border-radius: 15px;
+
+        border-width: 1px;
+        border-color: rgba(colors.$outlineGeneral, 0.25);
+
+        transition: all 0.25s ease-out;
+
+        &:hover {
+            border-color: rgba(colors.$outline, 0.25);
+        }
+    }
 }
 
 #workDescription {
@@ -40,6 +58,17 @@
     width: 75%;
     text-align: left;
     line-height: 2em;
+    padding: 15px;
+    border-radius: 15px;
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
+    }
 }
 
 #workPicturesList {
@@ -51,6 +80,15 @@
     padding: 15px;
     background-color: rgba(colors.$background2, 0.5);
     border-radius: 15px;
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
+    }
 }
 
 #workPicture {
@@ -85,13 +123,25 @@
         width: 32px;
         height: 32px;
         background-color: rgba(colors.$background3, 0.5);
-        border-radius: 3px;
+        border-radius: 5px;
         padding: 3px;
         cursor: pointer;
 
-        transition: all 0.3s ease-out;
+        transition: all 0.15s ease-out;
+        
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+
+        border-width: 1px;
+        border-color: rgba(colors.$outlineGeneral, 0.25);
+
         &:hover {
-            border-radius: 4px;
+            border-color: rgba(colors.$outline, 0.25);
+            border-radius: 8px;
+        }
+
+        & > img {
+            opacity: 0.5;
         }
     }
 }
@@ -108,10 +158,10 @@
     align-items: center;
     justify-content: center;
     left: 2%;
-    height: 8%;
-    width: 5%;
-    padding-left: 3px;
-    padding-right: 3px;
+    height: 10%;
+    width: 4%;
+    padding-left: 2px;
+    padding-right: 2px;
     color: colors.$text;
     background-color: rgba(colors.$background3, 0.5);
     border-radius: 5px;
@@ -119,9 +169,22 @@
     z-index: 1;
     cursor: pointer;
 
-    transition: left 0.3s ease-out;
+    transition: all 0.15s ease-in;
+
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
     &:hover {
-        left: 1.75%;
+        border-color: rgba(colors.$outline, 0.25);
+        border-radius: 10px;
+    }
+
+    & > img {
+        transform: rotate(-90deg);
+        opacity: 0.5;
     }
 }
 
@@ -131,27 +194,40 @@
     align-items: center;
     justify-content: center;
     right: 2%;
-    height: 8%;
-    width: 5%;
-    padding-left: 3px;
-    padding-right: 3px;
+    height: 10%;
+    width: 4%;
+    padding-left: 2px;
+    padding-right: 2px;
     color: colors.$text;
     background-color: rgba(colors.$background3, 0.5);
     border-radius: 5px;
     font-size: 3em;
     z-index: 1;
-    transform: scaleX(-1);
+    transform: scale(-1);
     cursor: pointer;
 
-    transition: right 0.3s ease-out;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.15s ease-in;
+
     &:hover {
-        right: 1.75%;
+        border-color: rgba(colors.$outline, 0.25);
+        border-radius: 10px;
+    }
+
+    & > img {
+        transform: rotate(-90deg);
+        opacity: 0.5;
     }
 }
 
 #workPictureDots {
     width: auto;
-    height: 20px;
+    height: 32px;
     display: flex;
     position: relative;
     justify-content: center;
@@ -162,37 +238,33 @@
 
 .workPictureDot {
     display: flex;
-    height: 100%;
-    width: auto;
+    height: 32px;
+    width: 32px;
     padding-left: 3px;
     padding-right: 3px;
-    color: colors.$text;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    color: rgba(colors.$text, 0.25);
     background-color: rgba(colors.$background3, 0.15);
     border-radius: 5px;
-    font-size: 3em;
     z-index: 1;
-    transform: translateY(0);
-    opacity: 0.5;
     cursor: pointer;
 
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
     &:hover {
-        transform: translateY(-3px);
-        opacity: 1;
+        border-radius: 10px;
+        border-color: rgba(colors.$outline, 0.25);
     }
 
-    > img {
-        transition: transform 0.5s ease-out;
-
-        &.active {
-            transform: scale(0.75, 0.75);
-        }
+    &.active {
+        color: rgba(colors.$text, 1);
+        border-color: rgba(colors.$outline, 0.5);
+        transform: scale(1.15, 1.15);
     }
-}
-
-.workPictureDot.active {
-    transform: scale(1.5, 1.5);
-    opacity: 1;
 }
 
 #workSampleTags {
@@ -207,6 +279,15 @@
     padding: 15px;
     border-radius: 15px;
     margin-bottom: 50px;
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
+    }
 }
 
 #workSampleLinks {

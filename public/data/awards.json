@@ -59,14 +59,14 @@
         "title": "High Honor Roll",
         "placement": "",
         "date": "2022 - 2026",
-        "description": "Earned High Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 1 & 3 \n- Sophomore Year: Terms 3 & 4 \n- Junior Year: TBD \n- Senior Year: TBD",
+        "description": "Earned High Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 1 & 3 \n- Sophomore Year: Terms 3 & 4 \n- Junior Year: None \n- Senior Year: Terms 1, 2, 3, & 4",
         "visibility": "visible"
     },
     "gltech_honor_roll": {
         "title": "Honor Roll",
         "placement": "",
         "date": "2022 - 2026",
-        "description": "Earned Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 2 & 4 \n- Sophomore Year: Term 2 \n- Junior Year: TBD \n- Senior Year: TBD",
+        "description": "Earned Honor Roll recognition throughout high school: \n- Freshmen Year: Terms 2 & 4 \n- Sophomore Year: Term 2 \n- Junior Year: 1, 2, 3, & 4 \n- Senior Year: Terms 1, 2, 3, & 4",
         "visibility": "visible"
     }
 }

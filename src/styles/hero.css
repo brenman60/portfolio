@@ -19,15 +19,18 @@
   justify-content: center;
   margin: auto;
   font-size: 3em;
-  padding: 10px 25px 10px 25px;
+  padding: 20px 35px 20px 35px;
   font-weight: bold;
   word-break: keep-all;
   max-height: 300px;
   overflow: hidden;
 }
 #heroText.background {
-  border-radius: 5px;
-  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 15px;
+  background-color: rgba(14, 14, 14, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(89, 51, 228, 0.05), inset 0 4px 8px rgba(14, 14, 14, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 #heroSubtext {
@@ -38,16 +41,19 @@
   margin: auto;
   margin-top: 10px;
   font-size: clamp(0.25rem, 2em, 2em);
-  padding: 5px 10px 5px 10px;
-  font-weight: bold;
+  padding: 15px 20px 15px 20px;
+  font-weight: 500;
   width: -moz-fit-content;
   width: fit-content;
   max-height: 300px;
   overflow: hidden;
 }
 #heroSubtext.background {
-  border-radius: 5px;
-  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 15px;
+  background-color: rgba(14, 14, 14, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(89, 51, 228, 0.05), inset 0 4px 8px rgba(14, 14, 14, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 #heroBackground {

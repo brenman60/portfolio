@@ -1,5 +1,5 @@
 import "../styles/workSamplePage.css";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import Hero from "../components/Hero";
 import { TagsContext } from "../components/TagsProvider";
 import { useContext, useState, useEffect, useRef } from "react";
@@ -14,6 +14,7 @@ const WorkSamplePage = () => {
   const [workSample, setWorkSample] = useState(null);
   const { getTagNames } = useContext(TagsContext);
   const [picture, setPicture] = useState(0);
+  const [pictureTransitionDirection, setPictureTransitionDirection] = useState(-10);
   const imageViewerRef = useRef();
 
   useEffect(() => {
@@ -28,6 +29,10 @@ const WorkSamplePage = () => {
   };
 
   const changeImage = (direction) => {
+    if (direction !== 0) {
+      setPictureTransitionDirection(direction > 0 ? -10 : 10);
+    }
+
     if (picture + direction <= -1) {
       setPicture(workSample.pictures.length - 1);
     } else if (picture + direction >= workSample.pictures.length) {
@@ -41,25 +46,29 @@ const WorkSamplePage = () => {
     return <motion.div></motion.div>
   }
 
+  document.title = "Work Sample - " + workSample.name;
   return (
     <motion.div
       key="work-sample"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ type: "tween", duration: 1, ease: "anticipate" }}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -12 }}
+      transition={{
+        duration: 0.45, 
+        ease: [0.16, 1, 0.3, 1]
+      }}
     >
       <Hero title={workSample.name} subtitle={
         <>
           {workSample.status} <br /> {workSample.time}
         </>
       } image={workSample.banner} height={400} />
-      <PageDivider height="4px" width="80%" opacity="0.5" />
+      <PageDivider height="4px" width="80%" />
       <div id="workSampleContainer">
         <div id="workSampleColumn1">
           <h1 className="workSectionTitle">Description</h1>
           <p id="workDescription">{workSample.description}</p>
-          <PageDivider height="4px" width="80%" opacity="0.5" />
+          <PageDivider height="4px" width="80%" />
           <h1 className="workSectionTitle">Relevant Skills</h1>
           <ul id="workSampleTags">
             {getTagNames(workSample.tags).map((tag, index) => {
@@ -70,9 +79,9 @@ const WorkSamplePage = () => {
               );
             })}
           </ul>
-          <PageDivider height="4px" width="80%" opacity="0.5" bottomMargin={25} />
-          <p className="workSectionTitle">{`Role: ${workSample.role}`}</p>
-          <PageDivider height="4px" width="80%" opacity="0.5" topMargin={25} />
+          <PageDivider height="4px" width="80%" bottomMargin={25} />
+          <p className="workSectionTitle workSampleRole">{`Role: ${workSample.role}`}</p>
+          <PageDivider height="4px" width="80%" topMargin={25} />
           <ul id="workSampleLinks">
             {workSample.links.map((item, index) => (
               <li key={index} className="workSampleLink">
@@ -85,15 +94,34 @@ const WorkSamplePage = () => {
         <div id="workSampleColumn2">
           <div id="workPictureContainer">
             <div id="workPicture">
-              <button id="workPictureLeft" onClick={() => changeImage(-1)} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" /></button>
-              <img src={workSample.pictures[picture].link} alt={workSample.pictures[picture].caption} id="workPicturePic" />
-              <img src="/portfolio/images/icons/zoom.png" alt="Open Image" id="workPictureZoom" onClick={() => openImageViewer(workSample.pictures[picture])} />
-              <button id="workPictureRight" onClick={() => changeImage(1)} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" /></button>
+              <button id="workPictureLeft" onClick={() => {
+                changeImage(-1);
+              }} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" /></button>
+              <AnimatePresence mode="wait" initial={false}>
+                <motion.img
+                  key={workSample.pictures[picture].link}
+                  src={workSample.pictures[picture].link}
+                  alt={workSample.pictures[picture].caption}
+                  id="workPicturePic"
+                  initial={{ opacity: 0, x: -pictureTransitionDirection }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: pictureTransitionDirection }}
+                  transition={{ duration: 0.2 }}
+                />
+              </AnimatePresence>
+
+              <button id="workPictureZoom" onClick={() => openImageViewer(workSample.pictures[picture])}>
+                <img src="/portfolio/images/icons/zoom.png" alt="Open Image" />
+              </button>
+
+              <button id="workPictureRight" onClick={() => {
+                changeImage(1);
+              }} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" /></button>
             </div>
             <ul id="workPictureDots">
-              {workSample.pictures.map((item, index) => (
-                <li key={index} className="workPictureDot" onClick={() => setPicture(index)}>
-                  <img src={index == picture ? "/portfolio/images/icons/dotFilled.png" : "/portfolio/images/icons/dotEmpty.png"} alt={"Picture " + index} className={index === picture ? "active" : ""} />
+              {workSample.pictures.map((_, index) => (
+                <li key={index} className={"workPictureDot" + (index === picture ? " active" : "")} onClick={() => changeImage(index - picture)}>
+                  <p>{index + 1}</p>
                 </li>
               ))}
             </ul>

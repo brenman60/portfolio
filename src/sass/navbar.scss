@@ -12,7 +12,7 @@ $navHeight: $navHeightRaw + px;
   justify-content: right;
   list-style-type: none;
   z-index: 100;
-  gap: clamp(10px, 0.5vw, 1.5vw);
+  gap: clamp(0px, 0vw, 1.5vw);
   white-space: nowrap;
 }
 
@@ -25,13 +25,18 @@ $navHeight: $navHeightRaw + px;
   text-align: center;
   height: 100%;
   font-size: clamp(0.75em, 1.5em, 1.5em);
-  border-bottom: colors.$heading;
+  border-bottom: rgba(colors.$outline, 0.5);
   border-style: solid;
   border-bottom-width: 0px;
 }
 
 #nav .navLink:hover {
-  background-color: colors.$background1;
+  background-color: rgba(colors.$background3, 0.5);
+
+  &:not(.active) {
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(colors.$outline, 0.25);
+  }
 }
 
 #headerNav {
@@ -41,6 +46,9 @@ $navHeight: $navHeightRaw + px;
   display: flex;
   align-items: center;
   float: left;
+
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(colors.$outlineGeneral, 0.25);
 }
 
 .navHeader {

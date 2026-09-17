@@ -4,6 +4,7 @@ import { TagsContext } from "./TagsProvider";
 import { useState } from "react";
 import Tag from "./Tag";
 import { useNavigate } from 'react-router-dom';
+import { AnimatePresence, motion } from "framer-motion";
 
 const WorkSample = ({
   sample,
@@ -15,6 +16,8 @@ const WorkSample = ({
 
   const [image, setImage] = useState(sample.gallery[0]);
   const [isVisible, setVisible] = useState(false);
+
+  const [pictureTransitionDirection, setPictureTransitionDirection] = useState(-10);
 
   useEffect(() => {
     const element = document.getElementById(`workSample${id}`);
@@ -38,6 +41,8 @@ const WorkSample = ({
   const changeImage = (direction) => {
     var currentIndex = sample.gallery.indexOf(image);
     
+    setPictureTransitionDirection(direction == "right" ? -10 : 10);
+
     if (direction == "left") {
       currentIndex--;
       if (currentIndex == -1) {
@@ -69,11 +74,26 @@ const WorkSample = ({
       </div>
       <p className="workTime">{sample.time}</p>
       <div className="workGallery">
-        <button className="workGalleryLeft" onClick={() => changeImage("left")} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" /></button>
+        <button className="workGalleryLeft" onClick={() => changeImage("left")} type="button">
+          <img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" />
+        </button>
         <div className="workGalleryImageContainer">
-        <img className="workGalleryImage" src={image} alt={sample.name} />
+        <AnimatePresence mode="wait" initial={false}>
+                <motion.img
+                  key={image}
+                  src={image}
+                  alt={image}
+                  id="workPicturePic"
+                  initial={{ opacity: 0, x: -pictureTransitionDirection }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: pictureTransitionDirection }}
+                  transition={{ duration: 0.2 }}
+                />
+              </AnimatePresence>
         </div>
-        <button className="workGalleryRight" onClick={() => changeImage("right")} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" /></button>
+        <button className="workGalleryRight" onClick={() => changeImage("right")} type="button">
+          <img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" />
+        </button>
       </div>
       <h1 className="workName">{sample.name}</h1>
       <a className="workLearnMore" onClick={() => navigate(`/portfolio/workSample/${identifier}`)}>Learn More</a>

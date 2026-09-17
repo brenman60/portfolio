@@ -1,4 +1,53 @@
 {
+    "CompTIA": {
+        "comptia_it_fundamentals": {
+            "name": "CompTIA IT Fundamentals (ITF+) Certification",
+            "logo": "/portfolio/images/certifications/CompTIA/comptia.png",
+            "image": "/portfolio/images/certifications/CompTIA/it_fundamentals.jpeg",
+            "issued": "June 2024",
+            "id": "MQXZ4DWXG9FL",
+            "link": "https://www.credly.com/badges/b1cfba1c-3371-40c4-acfd-ff6006259f99/public_url",
+            "skills": [52, 53, 54, 55, 56, 57, 3, 58],
+            "visibility": "visible"
+        }
+    },
+
+    "Cisco": {
+        "cisco_certified_support_technician_networking": {
+            "name": "Cisco Certified Support Technician Networking (CCST Networking)",
+            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
+            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_networking.jpeg",
+            "issued": "May 2024",
+            "id": "xdza-s4aK",
+            "link": "https://www.credly.com/badges/4c1f554c-f546-42bf-8ef0-a27760f9a3b4/public_url",
+            "skills": [27, 28, 33, 32, 31, 35, 34],
+            "visibility": "visible"
+        },
+        "cisco_certified_support_technician_cybersecurity": {
+            "name": "Cisco Certified Support Technician Cybersecurity (CCST Cybersecurity)",
+            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
+            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_cybersecurity.jpeg",
+            "issued": "February 2024",
+            "id": "wwzcp-2Fus",
+            "link": "https://www.credly.com/badges/edb65ff0-c4c3-4c1e-971e-841227617773/public_url",
+            "skills": [30, 48, 49, 50, 51],
+            "visibility": "visible"
+        }
+    },
+
+    "OSHA": {
+        "osha_10_hour": {
+            "name": "OSHA 10-Hour",
+            "logo": "/portfolio/images/certifications/OSHA/osha.png",
+            "image": "/portfolio/images/certifications/OSHA/osha_10_hour.jpeg",
+            "issued": "November 2024",
+            "id": "CS-0004371923",
+            "link": "",
+            "skills": [59, 60, 61],
+            "visibility": "visible"
+        }
+    },
+
     "Google": {
         "google_it_support_specialization": {
             "name": "Google IT Support Specialization",
@@ -49,6 +98,59 @@
             "link": "https://www.coursera.org/account/accomplishments/specialization/MQXZ4DWXG9FL",
             "skills": [],
             "visibility": "hidden"
+        }
+    },
+
+    "CIW": {
+        "ciw_web_development_professional": {
+            "name": "CIW Web Development Professional",
+            "logo": "/portfolio/images/certifications/CIW/ciw.png",
+            "image": "/portfolio/images/certifications/CIW/web_development_professional.jpeg",
+            "issued": "February 2024",
+            "id": "099598d1602d469a823dfc0c9b771c56",
+            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/099598d1602d469a823dfc0c9b771c56",
+            "skills": [1, 44, 2, 43, 45, 46],
+            "visibility": "visible"
+        },
+        "ciw_v5_database_design_specialist": {
+            "name": "CIW v5 Database Design Specialist",
+            "logo": "/portfolio/images/certifications/CIW/ciw.png",
+            "image": "/portfolio/images/certifications/CIW/v5_database_design_specialist.jpeg",
+            "issued": "February 2024",
+            "id": "3ee359d51bc948c9ae720b00d251e44c",
+            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/3ee359d51bc948c9ae720b00d251e44c",
+            "skills": [37, 38, 39, 40, 41, 42],
+            "visibility": "visible"
+        },
+        "ciw_advanced_html5_and_css3_specialist": {
+            "name": "CIW Advanced HTML5 and CSS3 Specialist",
+            "logo": "/portfolio/images/certifications/CIW/ciw.png",
+            "image": "/portfolio/images/certifications/CIW/advanced_html5_and_css3_specialist.jpeg",
+            "issued": "December 2023",
+            "id": "0381257e8f084ae3959696a1134bebf9",
+            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/0381257e8f084ae3959696a1134bebf9",
+            "skills": [1, 44],
+            "visibility": "visible"
+        },
+        "ciw_javascript_specialist": {
+            "name": "CIW JavaScript Specialist",
+            "logo": "/portfolio/images/certifications/CIW/ciw.png",
+            "image": "/portfolio/images/certifications/CIW/javascript_specialist.jpeg",
+            "issued": "November 2023",
+            "id": "6accbc4de3b74ffaa7b3aacfb742c9db",
+            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/6accbc4de3b74ffaa7b3aacfb742c9db",
+            "skills": [2, 43],
+            "visibility": "visible"
+        },
+        "ciw_site_development_associate": {
+            "name": "CIW Site Development Associate",
+            "logo": "/portfolio/images/certifications/CIW/ciw.png",
+            "image": "/portfolio/images/certifications/CIW/site_development_associate.jpeg",
+            "issued": "November 2023",
+            "id": "1c398d0bf26e4b55991f090ed205e092",
+            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/1c398d0bf26e4b55991f090ed205e092",
+            "skills": [46, 47, 1, 44],
+            "visibility": "visible"
         }
     },
 
@@ -241,108 +343,6 @@
             "id": "sVmK-XMzs",
             "link": "https://www.credly.com/badges/888e7a1b-27b9-46f4-aff5-708e5b7e932a/public_url",
             "skills": [22],
-            "visibility": "visible"
-        }
-    },
-
-    "CIW": {
-        "ciw_web_development_professional": {
-            "name": "CIW Web Development Professional",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/web_development_professional.jpeg",
-            "issued": "February 2024",
-            "id": "099598d1602d469a823dfc0c9b771c56",
-            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/099598d1602d469a823dfc0c9b771c56",
-            "skills": [1, 44, 2, 43, 45, 46],
-            "visibility": "visible"
-        },
-        "ciw_v5_database_design_specialist": {
-            "name": "CIW v5 Database Design Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/v5_database_design_specialist.jpeg",
-            "issued": "February 2024",
-            "id": "3ee359d51bc948c9ae720b00d251e44c",
-            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/3ee359d51bc948c9ae720b00d251e44c",
-            "skills": [37, 38, 39, 40, 41, 42],
-            "visibility": "visible"
-        },
-        "ciw_advanced_html5_and_css3_specialist": {
-            "name": "CIW Advanced HTML5 and CSS3 Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/advanced_html5_and_css3_specialist.jpeg",
-            "issued": "December 2023",
-            "id": "0381257e8f084ae3959696a1134bebf9",
-            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/0381257e8f084ae3959696a1134bebf9",
-            "skills": [1, 44],
-            "visibility": "visible"
-        },
-        "ciw_javascript_specialist": {
-            "name": "CIW JavaScript Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/javascript_specialist.jpeg",
-            "issued": "November 2023",
-            "id": "6accbc4de3b74ffaa7b3aacfb742c9db",
-            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/6accbc4de3b74ffaa7b3aacfb742c9db",
-            "skills": [2, 43],
-            "visibility": "visible"
-        },
-        "ciw_site_development_associate": {
-            "name": "CIW Site Development Associate",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/site_development_associate.jpeg",
-            "issued": "November 2023",
-            "id": "1c398d0bf26e4b55991f090ed205e092",
-            "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/1c398d0bf26e4b55991f090ed205e092",
-            "skills": [46, 47, 1, 44],
-            "visibility": "visible"
-        }
-    },
-
-    "Cisco": {
-        "cisco_certified_support_technician_networking": {
-            "name": "Cisco Certified Support Technician Networking (CCST Networking)",
-            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
-            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_networking.jpeg",
-            "issued": "May 2024",
-            "id": "xdza-s4aK",
-            "link": "https://www.credly.com/badges/4c1f554c-f546-42bf-8ef0-a27760f9a3b4/public_url",
-            "skills": [27, 28, 33, 32, 31, 35, 34],
-            "visibility": "visible"
-        },
-        "cisco_certified_support_technician_cybersecurity": {
-            "name": "Cisco Certified Support Technician Cybersecurity (CCST Cybersecurity)",
-            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
-            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_cybersecurity.jpeg",
-            "issued": "February 2024",
-            "id": "wwzcp-2Fus",
-            "link": "https://www.credly.com/badges/edb65ff0-c4c3-4c1e-971e-841227617773/public_url",
-            "skills": [30, 48, 49, 50, 51],
-            "visibility": "visible"
-        }
-    },
-
-    "CompTIA": {
-        "comptia_it_fundamentals": {
-            "name": "CompTIA IT Fundamentals (ITF+) Certification",
-            "logo": "/portfolio/images/certifications/CompTIA/comptia.png",
-            "image": "/portfolio/images/certifications/CompTIA/it_fundamentals.jpeg",
-            "issued": "June 2024",
-            "id": "MQXZ4DWXG9FL",
-            "link": "https://www.credly.com/badges/b1cfba1c-3371-40c4-acfd-ff6006259f99/public_url",
-            "skills": [52, 53, 54, 55, 56, 57, 3, 58],
-            "visibility": "visible"
-        }
-    },
-
-    "OSHA": {
-        "osha_10_hour": {
-            "name": "OSHA 10-Hour",
-            "logo": "/portfolio/images/certifications/OSHA/osha.png",
-            "image": "/portfolio/images/certifications/OSHA/osha_10_hour.jpeg",
-            "issued": "November 2024",
-            "id": "CS-0004371923",
-            "link": "",
-            "skills": [59, 60, 61],
             "visibility": "visible"
         }
     }

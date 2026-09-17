@@ -3,13 +3,19 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: clamp(90%, 85%, 1250px);
-  max-width: 1250px;
-  height: min(75vh, 95vw);
-  background-color: rgba(56, 56, 56, 0.95);
+  width: clamp(50%, 85%, 100vw);
+  height: clamp(50%, 95%, 100vh);
+  background-color: rgba(27, 27, 27, 0.5);
   border-radius: 5px;
   z-index: 100;
-  transition: opacity 0.15s ease-out;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
+}
+#imageViewer:hover {
+  border-color: rgba(89, 51, 228, 0.25);
 }
 #imageViewer.open {
   opacity: 1;
@@ -20,43 +26,29 @@
   pointer-events: none;
 }
 
-#imageViewerTitle {
-  display: flex;
-  width: 93%;
-  height: 8%;
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  font-size: clamp(0.25rem, 5vw, 2em);
-  background-color: rgba(30, 30, 30, 0.25);
-  border-color: rgba(27, 27, 27, 0.25);
-  border-radius: 5px;
-  border-width: 1px;
-  white-space: nowrap;
-  color: #EDEDED;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-}
-
 #imageViewerImageContainer {
   display: flex;
-  position: relative;
-  width: 93%;
-  height: 63%;
-  background-color: rgba(30, 30, 30, 0.25);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(14, 14, 14, 0.25);
   border-color: rgba(27, 27, 27, 0.25);
   border-radius: 5px;
   border-width: 1px;
   margin: auto;
+  padding: 4px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  padding-left: 15px;
-  padding-right: 15px;
+  z-index: 0;
 }
-
+#imageViewerImageContainer > img {
+  margin: auto;
+  height: 100%;
+}
 #imageViewerLeft {
   display: flex;
   position: absolute;
@@ -73,18 +65,19 @@
   font-size: 3em;
   z-index: 1;
   cursor: pointer;
-  transition: left 0.3s ease-out;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.15s ease-in;
 }
 #imageViewerLeft:hover {
-  left: 1.75%;
+  border-color: rgba(89, 51, 228, 0.25);
+  border-radius: 10px;
 }
-
-#imageViewerImage {
-  position: relative;
-  width: auto;
-  height: 95%;
-  -o-object-fit: contain;
-     object-fit: contain;
+#imageViewerLeft > img {
+  transform: rotate(-90deg);
+  opacity: 0.5;
 }
 
 #imageViewerRight {
@@ -102,12 +95,21 @@
   border-radius: 5px;
   font-size: 3em;
   z-index: 1;
-  transform: scaleX(-1);
+  transform: scale(-1);
   cursor: pointer;
-  transition: right 0.3s ease-out;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.15s ease-in;
 }
 #imageViewerRight:hover {
-  right: 1.75%;
+  border-color: rgba(89, 51, 228, 0.25);
+  border-radius: 10px;
+}
+#imageViewerRight > img {
+  transform: rotate(-90deg);
+  opacity: 0.5;
 }
 
 #imageViewerNewTab {
@@ -115,66 +117,92 @@
   position: absolute;
   align-items: center;
   justify-content: center;
-  right: 20px;
+  right: 62px;
   top: 20px;
-  height: 30px;
-  width: 30px;
-  padding-left: 3px;
-  padding-right: 3px;
+  height: 32px;
+  width: 32px;
+  padding: 4px;
   color: #EDEDED;
   background-color: rgba(27, 27, 27, 0.25);
   border-radius: 5px;
   font-size: 3em;
   z-index: 1;
   cursor: pointer;
-  transition: all 0.3s ease-out;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
 }
 #imageViewerNewTab:hover {
-  width: 32px;
-  height: 32px;
-  right: 18px;
-  top: 18px;
+  border-color: rgba(89, 51, 228, 0.25);
+  border-radius: 8px;
+}
+#imageViewerNewTab > img {
+  opacity: 0.5;
 }
 
 #imageViewerCaption {
   display: flex;
+  position: absolute;
+  bottom: 32px;
   color: #EDEDED;
-  font-size: clamp(1rem, 1vw, 2.5em);
-  background-color: rgba(30, 30, 30, 0.25);
-  border-color: rgba(27, 27, 27, 0.25);
+  font-size: clamp(0.25rem, 0.75vw, 2.5em);
+  background-color: rgba(14, 14, 14, 0.5);
+  border-color: rgba(27, 27, 27, 0.5);
   border-radius: 5px;
   border-width: 1px;
-  width: 93%;
-  height: 15%;
+  width: 50%;
+  height: 8%;
+  left: 50%;
+  transform: translateX(-50%);
   padding: 5px;
   margin: auto;
-  margin-bottom: 1%;
-  margin-top: 1%;
+  margin-bottom: 8px;
+  margin-top: 8px;
   text-align: center;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
+}
+#imageViewerCaption:hover {
+  border-color: rgba(89, 51, 228, 0.25);
 }
 
 #imageViewerExit {
   display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 4px;
   color: #EDEDED;
   font-size: clamp(1rem, 1vw, 2.5em);
   border-radius: 5px;
-  background-color: rgba(30, 30, 30, 0.25);
-  border-color: rgba(27, 27, 27, 0.25);
-  border-width: 1px;
-  width: 90%;
-  height: 5%;
+  background-color: rgba(14, 14, 14, 0.25);
+  width: 32px;
+  height: 32px;
   margin: auto;
   aspect-ratio: 1/1;
   justify-content: center;
   align-items: center;
   text-align: center;
-  transition: all 0.3s ease-out;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
 }
 #imageViewerExit:hover {
-  width: 92%;
-  border-radius: 10px;
-  border-color: rgba(27, 27, 27, 0.75);
+  border-color: rgba(89, 51, 228, 0.25);
+  border-radius: 8px;
+}
+#imageViewerExit > img {
+  opacity: 0.5;
 }

@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import { AnimatePresence } from "framer-motion";
 
-const MainLayout = () => {  
+const MainLayout = () => {
   return (
     <AnimatePresence>
       <Outlet />

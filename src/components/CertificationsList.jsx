@@ -68,14 +68,16 @@ const CertificationsList = ({
     setTimeout(() => {
       setButtonDisabled(false);
       button.classList.remove("disabled");
-    }, 250)
+    }, 100);
   };
 
   return (
-    <div className="certificationsGroup">
+    <div className={"certificationsGroup" + (isOpen ? " open" : " closed")}>
         <h1 className="certGroupTitle">{title}</h1>
         <div className="certGroupButtonWrapper" style={{ pointerEvents: buttonDisabled ? "none" : "auto" }}>
-          <button className="certGroupButton" onClick={(e) => toggleList(e.target)} type="button">&#x2022; &#x2022; &#x2022;</button>
+          <button className="certGroupButton" onClick={(e) => toggleList(e.target)} type="button">
+            <img className={isOpen ? "open" : "closed"} src="/portfolio/images/icons/arrow.png" alt="Toggle List" />
+          </button>
         </div>
         <ul className={`certificationsList ${isOpen ? "open" : "closed"}`} ref={listRef}  style={isOpen ? {
           height: `${listRef.current?.scrollHeight}px`

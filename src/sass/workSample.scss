@@ -8,11 +8,11 @@
     background-color: rgba(colors.$background2, 0.35);
     padding: 10px;
     border-radius: 10px;
-    border-width: 2px;
-    border-color: rgba(colors.$background4, 0.25);
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
     color: colors.$text;
 
-    transition: opacity 0.5s ease-in 0.1s;
+    transition: opacity 0.5s ease-in 0.1s, border-color 0.25s ease-out;
 
     &.open {
         opacity: 1;
@@ -20,6 +20,10 @@
 
     &.closed {
         opacity: 0;
+    }
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
     }
 }
 
@@ -81,10 +85,6 @@
     cursor: default;
 
     transition: all 0.15s ease-in;
-    &:hover {
-        background-color: rgba(colors.$background2, 1);
-        box-shadow: inset 0 0 0 1px rgba(colors.$text, 0.75);
-    }
 }
 
 .workGallery {
@@ -102,15 +102,26 @@
     transform: translateY(-50%);
     background-color: rgba(colors.$background3, 0.5);
     border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-
-    transition: all 0.15s ease-in;
+    padding-left: 2px;
+    padding-right: 2px;
     cursor: pointer;
 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.15s ease-in;
+
     &:hover {
-        //font-size: 2.05em;
-        transform: translateY(-50%) translateX(-5%);
+        border-color: rgba(colors.$outline, 0.25);
+        border-radius: 10px;
+    }
+
+    & > img {
+        transform: rotate(-90deg);
+        opacity: 0.5;
     }
 }
 
@@ -125,8 +136,8 @@
     border-color: rgba(colors.$background3, 0.5);
 
     width: 100%;
-    height: 300px;
     overflow: hidden;
+    height: 200px;
 }
 
 .workGalleryImage {
@@ -144,18 +155,29 @@
     width: 30px;
     height: 35px;
     z-index: 1;
-    transform: translateY(-50%) scaleX(-1);
+    transform: translateY(-50%) scale(-1);
     background-color: rgba(colors.$background3, 0.5);
     border-radius: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-
-    transition: all 0.15s ease-in;
+    padding-left: 2px;
+    padding-right: 2px;
     cursor: pointer;
 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.15s ease-in;
+
     &:hover {
-        //font-size: 2.05em;
-        transform: translateY(-50%) translateX(5%) scaleX(-1);
+        border-color: rgba(colors.$outline, 0.25);
+        border-radius: 8px;
+    }
+
+    & > img {
+        transform: rotate(-90deg);
+        opacity: 0.5;
     }
 }
 

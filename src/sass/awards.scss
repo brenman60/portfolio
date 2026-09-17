@@ -21,6 +21,15 @@
     margin: 20px;
     display: flex;
     flex-direction: column;
+
+    border-width: 1px;
+    border-color: rgba(colors.$outlineGeneral, 0.25);
+
+    transition: all 0.25s ease-out;
+
+    &:hover {
+        border-color: rgba(colors.$outline, 0.25);
+    }
 }
 
 .awardTitle {

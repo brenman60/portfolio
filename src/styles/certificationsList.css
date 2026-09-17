@@ -22,9 +22,16 @@
   margin-right: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: rgba(27, 27, 27, 0.5);
+  background-color: rgba(19, 19, 19, 0.35);
   padding: 25px;
+  padding-bottom: 0px;
   border-radius: 15px;
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
+}
+.certificationsGroup:hover {
+  border-color: rgba(89, 51, 228, 0.25);
 }
 
 .certGroupTitle {
@@ -40,8 +47,11 @@
   gap: 30px;
   justify-content: center;
   margin-top: 25px;
+  overflow: hidden;
+  transition: height 0.25s ease-in-out, margin-bottom 0.5s ease-in-out;
+}
+.certificationsList.open {
   margin-bottom: 25px;
-  transition: height 0.5s ease-in-out;
 }
 
 .certificationsList.closed {
@@ -65,16 +75,24 @@
   border-radius: 5px;
   z-index: 2;
   cursor: pointer;
-}
-.certGroupButton {
-  background-color: rgba(43, 43, 43, 0.35);
-  border-color: rgba(237, 237, 237, 0.25);
-  transition: background-color 0.15s ease-in, border-color 0.15s ease-in;
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
 }
 .certGroupButton:hover {
-  border-width: 1px;
-  background-color: #2b2b2b;
-  border-color: rgba(237, 237, 237, 0.75);
+  border-color: rgba(89, 51, 228, 0.5);
+  border-radius: 15px;
+}
+.certGroupButton > img {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  transform: rotate(180deg);
+  opacity: 0.5;
+  transition: all 0.25s ease-out;
+}
+.certGroupButton > img.open {
+  transform: rotate(0deg);
 }
 
 .certGroupButton.disabled {
@@ -82,7 +100,7 @@
 }
 
 .certGroupFooter {
-  background-color: #2B2B2B;
+  background-color: #131313;
   width: 100%;
   height: 5px;
   border-radius: 25px;

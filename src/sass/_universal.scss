@@ -16,3 +16,7 @@ html {
     background-color: colors.$background1;
     overflow-y: scroll;
 }
+
+.pageDivider {
+    background-color: rgba(colors.$outlineLight, 0.25);
+}

@@ -17,17 +17,23 @@ const AboutMe = () => {
   return (
     <motion.div
       key="about-me"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ type: "tween", duration: 0.5, ease: "anticipate" }}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -12 }}
+      transition={{
+        duration: 0.45, 
+        ease: [0.16, 1, 0.3, 1]
+      }}
     >
       <Hero title="About Me" effects="squares" />
-      <PageDivider height="4px" width="80%" opacity="0.5" />
+      <PageDivider height="4px" width="80%" />
       <div id="aboutMeInfo">
         <h1 id="aboutDescriptionTitle">Brennan Kunicki</h1>
           <p id="aboutDescription">
-          Student at Greater Lowell Technical High School, in the Information Technology program. My core interests are web development, software development, and game development. I can adequately develop programs in C#, Python, Visual Basic, and React.
+            Student at Middlesex Community College, studying for an Associate's Degree in Computer Science.
+            My core interests are software development, game development, and web development.
+            I am looking for an entry-level position or internship in any field of development, and I am always open to learning new frameworks, languages, and skills.
+            Please feel free to reach out to me on the Contact page.
           </p>
           <h1 id="topSkillsTitle">Top Skills</h1>
           <ul id="topSkills">
@@ -40,18 +46,12 @@ const AboutMe = () => {
             })}
           </ul>
       </div>
-      <PageDivider height="4px" width="80%" opacity="0.5" topMargin={50} bottomMargin={50} />
+      <PageDivider height="4px" width="80%" topMargin={50} bottomMargin={50} />
       <div id="aboutMeTags" ref={tagsRef} className={tagsExpanded ? "open" : "closed"} style={{ height: tagsExpanded ? `${tagsRef.current?.scrollHeight}px` : "500px" }}>
         {Object.entries(sortByStarred(sortByLevel(getTags()))).map(([key, value]) => {
           return(
             <div key={key} className={`aboutMeTag ${value.starred === "true" ? "starred" : ""}`} style={{ display: value.shownInSkills }}>
               <h1 className="aboutMeTagName">{value.name}</h1>
-              <div className="aboutMeTagLevel">
-                <h1>Proficiency: {value.level + "%"}</h1>
-                <div>
-                  <div style={{ width: `${value.level}%` }}></div>
-                </div>
-              </div>
               <div className="aboutMeTagLength">
                 <h1 className="aboutMeTagYears">{
                   value.years >= 1 ? value.years : Math.round(value.years * 12)

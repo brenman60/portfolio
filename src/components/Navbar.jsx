@@ -23,9 +23,9 @@ const Navbar = () => {
 
   const links = [
     { to: "/portfolio/about", label: "About Me" },
+    { to: "/portfolio/workSamples", label: "Work Samples" },
     { to: "/portfolio/certifications", label: "Certifications" },
     { to: "/portfolio/awards", label: "Awards" },
-    { to: "/portfolio/workSamples", label: "Work Samples" },
     { to: "/portfolio/contact", label: "Contact" },
   ];
 

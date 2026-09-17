@@ -13,12 +13,18 @@
   width: 500px;
   height: auto;
   padding: 25px;
-  background-color: rgba(43, 43, 43, 0.35);
+  background-color: rgba(19, 19, 19, 0.35);
   color: #EDEDED;
   border-radius: 10px;
   margin: 20px;
   display: flex;
   flex-direction: column;
+  border-width: 1px;
+  border-color: rgba(87, 81, 109, 0.25);
+  transition: all 0.25s ease-out;
+}
+.award:hover {
+  border-color: rgba(89, 51, 228, 0.25);
 }
 
 .awardTitle {

@@ -22,6 +22,9 @@ export const colorScheme = {
   heading: "#007ACC",
   highlight: "#FF6F00",
   text: "#EDEDED",
+  outline: "#5933e4",
+  outlineLight: "#9077eb",
+  outlineTransparent: "#d7ccff3b",
 }
 
 const router = createBrowserRouter([
