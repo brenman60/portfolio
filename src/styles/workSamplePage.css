@@ -290,6 +290,7 @@
 @media (max-width: 800px) {
   #workSampleContainer {
     grid-template-columns: 1fr;
+    row-gap: 32px;
   }
   #workSampleColumn1 {
     grid-column: 1;

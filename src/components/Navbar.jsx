@@ -22,17 +22,17 @@ const Navbar = () => {
   };
 
   const links = [
-    { to: "/portfolio/about", label: "About Me" },
-    { to: "/portfolio/workSamples", label: "Work Samples" },
-    { to: "/portfolio/certifications", label: "Certifications" },
-    { to: "/portfolio/awards", label: "Awards" },
-    { to: "/portfolio/contact", label: "Contact" },
+    { to: "/about", label: "About Me" },
+    { to: "/workSamples", label: "Work Samples" },
+    { to: "/certifications", label: "Certifications" },
+    { to: "/awards", label: "Awards" },
+    { to: "/contact", label: "Contact" },
   ];
 
   return (
     <>
       <nav id={"headerNav"}>
-        <NavLink to="/portfolio/" className={"navLink"}>
+        <NavLink to="/about" className={"navLink"}>
           Brennan Kunicki
         </NavLink>
       </nav>

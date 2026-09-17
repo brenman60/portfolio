@@ -46,7 +46,7 @@ const ImageViewer = forwardRef(({
     <div id="imageViewer" className={isOpen ? "open" : "closed"}>
       <div id="imageViewerImageContainer">
         <button id="imageViewerLeft" onClick={() => changeImage(-1)} type="button">
-          <img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" />
+          <img src="/images/icons/arrow.png" alt="Left Arrow" />
         </button>
         
         <AnimatePresence mode="wait" initial={false}>
@@ -63,15 +63,15 @@ const ImageViewer = forwardRef(({
         </AnimatePresence>
 
         <button id="imageViewerRight" onClick={() => changeImage(1)} type="button">
-          <img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" />
+          <img src="/images/icons/arrow.png" alt="Right Arrow" />
         </button>
         <a id="imageViewerNewTab" href={images[image].link} target="_blank">
-          <img src="/portfolio/images/icons/newTab.png" alt="Open Image in New Tab" />
+          <img src="/images/icons/newTab.png" alt="Open Image in New Tab" />
         </a>
       </div>
       <p id="imageViewerCaption">{images[image].caption}</p>
       <button id="imageViewerExit" onClick={() => setIsOpen(false)} type="button">
-        <img src="/portfolio/images/icons/exit.png" alt="Exit Button" />
+        <img src="/images/icons/exit.png" alt="Exit Button" />
       </button>
     </div>
   );

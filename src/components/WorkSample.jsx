@@ -75,7 +75,7 @@ const WorkSample = ({
       <p className="workTime">{sample.time}</p>
       <div className="workGallery">
         <button className="workGalleryLeft" onClick={() => changeImage("left")} type="button">
-          <img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" />
+          <img src="/images/icons/arrow.png" alt="Left Arrow" />
         </button>
         <div className="workGalleryImageContainer">
         <AnimatePresence mode="wait" initial={false}>
@@ -92,11 +92,11 @@ const WorkSample = ({
               </AnimatePresence>
         </div>
         <button className="workGalleryRight" onClick={() => changeImage("right")} type="button">
-          <img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" />
+          <img src="/images/icons/arrow.png" alt="Right Arrow" />
         </button>
       </div>
       <h1 className="workName">{sample.name}</h1>
-      <a className="workLearnMore" onClick={() => navigate(`/portfolio/workSample/${identifier}`)}>Learn More</a>
+      <a className="workLearnMore" onClick={() => navigate(`/workSample/${identifier}`)}>Learn More</a>
       <ul className="workTags">
         {getTagNames(sample.tags).map((tag, index) => {
           return(

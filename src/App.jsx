@@ -1,6 +1,7 @@
 import {
+  Outlet,
   RouterProvider,
-  createBrowserRouter,
+  createHashRouter,
 } from "react-router-dom";
 
 import MainLayout from "./layouts/MainLayout";
@@ -27,13 +28,15 @@ export const colorScheme = {
   outlineTransparent: "#d7ccff3b",
 }
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/portfolio",
+    path: "/",
     element: (
       <>
         <Navbar />
-        <MainLayout />
+        <MainLayout>
+          <Outlet />
+        </MainLayout>
         <Footer />
       </>
     ),

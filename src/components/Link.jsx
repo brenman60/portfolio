@@ -5,16 +5,16 @@ const Link = ({
     link,
 }) => {
   const images = {
-    "GitHub": "/portfolio/images/icons/github.png",
-    "Download": "/portfolio/images/icons/download.png",
-    "Itch": "/portfolio/images/icons/itchio.png",
-    "Google Play": "/portfolio/images/icons/google_play.png",
-    "Project Website": "/portfolio/images/icons/website.png",
-    "Steam": "/portfolio/images/icons/steam.png",
-    "YouTube": "/portfolio/images/icons/youtube.png",
-    "Kaggle": "/portfolio/images/icons/kaggle.png",
-    "Presentation": "/portfolio/images/icons/presentation.png",
-    "LinkedIn": "/portfolio/images/icons/linkedin.png",
+    "GitHub": "/images/icons/github.png",
+    "Download": "/images/icons/download.png",
+    "Itch": "/images/icons/itchio.png",
+    "Google Play": "/images/icons/google_play.png",
+    "Project Website": "/images/icons/website.png",
+    "Steam": "/images/icons/steam.png",
+    "YouTube": "/images/icons/youtube.png",
+    "Kaggle": "/images/icons/kaggle.png",
+    "Presentation": "/images/icons/presentation.png",
+    "LinkedIn": "/images/icons/linkedin.png",
   }
 
   return (

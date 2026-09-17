@@ -8,7 +8,7 @@ export const TagsProvider = ({ children }) => {
   const [tags, setTags] = useState(null);
 
   useEffect(() => {
-    fetch("/portfolio/data/tags.json")
+    fetch("/data/tags.json")
     .then(response => response.json())
     .then(jsonData => setTags(jsonData))
     .catch(error => console.error("Error loading JSON: ", error));

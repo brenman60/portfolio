@@ -81,14 +81,6 @@ const WorkSamplePage = () => {
           </ul>
           <PageDivider height="4px" width="80%" bottomMargin={25} />
           <p className="workSectionTitle workSampleRole">{`Role: ${workSample.role}`}</p>
-          <PageDivider height="4px" width="80%" topMargin={25} />
-          <ul id="workSampleLinks">
-            {workSample.links.map((item, index) => (
-              <li key={index} className="workSampleLink">
-                <Link linkType={item.name} link={item.link} />
-              </li>
-            ))}
-          </ul>
         </div>
 
         <div id="workSampleColumn2">
@@ -96,7 +88,7 @@ const WorkSamplePage = () => {
             <div id="workPicture">
               <button id="workPictureLeft" onClick={() => {
                 changeImage(-1);
-              }} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Left Arrow" /></button>
+              }} type="button"><img src="/images/icons/arrow.png" alt="Left Arrow" /></button>
               <AnimatePresence mode="wait" initial={false}>
                 <motion.img
                   key={workSample.pictures[picture].link}
@@ -111,12 +103,12 @@ const WorkSamplePage = () => {
               </AnimatePresence>
 
               <button id="workPictureZoom" onClick={() => openImageViewer(workSample.pictures[picture])}>
-                <img src="/portfolio/images/icons/zoom.png" alt="Open Image" />
+                <img src="/images/icons/zoom.png" alt="Open Image" />
               </button>
 
               <button id="workPictureRight" onClick={() => {
                 changeImage(1);
-              }} type="button"><img src="/portfolio/images/icons/arrow.png" alt="Right Arrow" /></button>
+              }} type="button"><img src="/images/icons/arrow.png" alt="Right Arrow" /></button>
             </div>
             <ul id="workPictureDots">
               {workSample.pictures.map((_, index) => (
@@ -127,6 +119,15 @@ const WorkSamplePage = () => {
             </ul>
             <p id="workPictureCaption">{workSample.pictures[picture].caption}</p>
           </div>
+
+          <PageDivider height="4px" width="80%" topMargin={25} />
+          <ul id="workSampleLinks">
+            {workSample.links.map((item, index) => (
+              <li key={index} className="workSampleLink">
+                <Link linkType={item.name} link={item.link} />
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 

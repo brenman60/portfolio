@@ -11,8 +11,8 @@ const Footer = () => {
     <div id="footer">
       <p id="copyrightFooter">{copyrightText}</p>
       <div id="footerIcons">
-        <img className="footerIcon" onClick={() => window.open("https://www.linkedin.com/in/brennan-kunicki-55a83a30a")} src="/portfolio/images/icons/linkedin.png" alt="LinkedIn" />
-        <img className="footerIcon" onClick={() => window.open("https://github.com/brenman60/portfolio")} src="/portfolio/images/icons/github.png" alt="GitHub" />
+        <img className="footerIcon" onClick={() => window.open("https://www.linkedin.com/in/brennan-kunicki-55a83a30a")} src="/images/icons/linkedin.png" alt="LinkedIn" />
+        <img className="footerIcon" onClick={() => window.open("https://github.com/brenman60/portfolio")} src="/images/icons/github.png" alt="GitHub" />
       </div>
     </div>
   );

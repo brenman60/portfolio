@@ -2,8 +2,8 @@
     "CompTIA": {
         "comptia_it_fundamentals": {
             "name": "CompTIA IT Fundamentals (ITF+) Certification",
-            "logo": "/portfolio/images/certifications/CompTIA/comptia.png",
-            "image": "/portfolio/images/certifications/CompTIA/it_fundamentals.jpeg",
+            "logo": "/images/certifications/CompTIA/comptia.png",
+            "image": "/images/certifications/CompTIA/it_fundamentals.jpeg",
             "issued": "June 2024",
             "id": "MQXZ4DWXG9FL",
             "link": "https://www.credly.com/badges/b1cfba1c-3371-40c4-acfd-ff6006259f99/public_url",
@@ -15,8 +15,8 @@
     "Cisco": {
         "cisco_certified_support_technician_networking": {
             "name": "Cisco Certified Support Technician Networking (CCST Networking)",
-            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
-            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_networking.jpeg",
+            "logo": "/images/certifications/Cisco/cisco.png",
+            "image": "/images/certifications/Cisco/certified_support_technician_networking.jpeg",
             "issued": "May 2024",
             "id": "xdza-s4aK",
             "link": "https://www.credly.com/badges/4c1f554c-f546-42bf-8ef0-a27760f9a3b4/public_url",
@@ -25,8 +25,8 @@
         },
         "cisco_certified_support_technician_cybersecurity": {
             "name": "Cisco Certified Support Technician Cybersecurity (CCST Cybersecurity)",
-            "logo": "/portfolio/images/certifications/Cisco/cisco.png",
-            "image": "/portfolio/images/certifications/Cisco/certified_support_technician_cybersecurity.jpeg",
+            "logo": "/images/certifications/Cisco/cisco.png",
+            "image": "/images/certifications/Cisco/certified_support_technician_cybersecurity.jpeg",
             "issued": "February 2024",
             "id": "wwzcp-2Fus",
             "link": "https://www.credly.com/badges/edb65ff0-c4c3-4c1e-971e-841227617773/public_url",
@@ -38,8 +38,8 @@
     "OSHA": {
         "osha_10_hour": {
             "name": "OSHA 10-Hour",
-            "logo": "/portfolio/images/certifications/OSHA/osha.png",
-            "image": "/portfolio/images/certifications/OSHA/osha_10_hour.jpeg",
+            "logo": "/images/certifications/OSHA/osha.png",
+            "image": "/images/certifications/OSHA/osha_10_hour.jpeg",
             "issued": "November 2024",
             "id": "CS-0004371923",
             "link": "",
@@ -51,8 +51,8 @@
     "Google": {
         "google_it_support_specialization": {
             "name": "Google IT Support Specialization",
-            "logo": "/portfolio/images/certifications/Google/google.png",
-            "image": "/portfolio/images/certifications/Google/it_support.jpeg",
+            "logo": "/images/certifications/Google/google.png",
+            "image": "/images/certifications/Google/it_support.jpeg",
             "issued": "December 2024",
             "id": "DEEZE0LNQYN7",
             "link": "https://www.coursera.org/account/accomplishments/specialization/DEEZE0LNQYN7",
@@ -61,8 +61,8 @@
         },
         "google_project_management_specialization": {
             "name": "Google Project Management Specialization",
-            "logo": "/portfolio/images/certifications/Google/google.png",
-            "image": "/portfolio/images/certifications/Google/project_management.jpeg",
+            "logo": "/images/certifications/Google/google.png",
+            "image": "/images/certifications/Google/project_management.jpeg",
             "issued": "December 2024",
             "id": "3MVHVO5AETNM",
             "link": "https://www.coursera.org/account/accomplishments/specialization/3MVHVO5AETNM",
@@ -71,8 +71,8 @@
         },
         "google_ux_design_specialization": {
             "name": "Google UX Design Specialization",
-            "logo": "/portfolio/images/certifications/Google/google.png",
-            "image": "/portfolio/images/certifications/Google/ux_design.jpeg",
+            "logo": "/images/certifications/Google/google.png",
+            "image": "/images/certifications/Google/ux_design.jpeg",
             "issued": "December 2024",
             "id": "GEIC40WUGJ5B",
             "link": "https://www.coursera.org/account/accomplishments/specialization/GEIC40WUGJ5B",
@@ -81,8 +81,8 @@
         },
         "google_cybersecurity_specialization": {
             "name": "Google Cybersecurity Specialization",
-            "logo": "/portfolio/images/certifications/Google/google.png",
-            "image": "/portfolio/images/certifications/Google/cybersecurity.jpeg",
+            "logo": "/images/certifications/Google/google.png",
+            "image": "/images/certifications/Google/cybersecurity.jpeg",
             "issued": "November 2024",
             "id": "74NU6NYJSDEX",
             "link": "https://www.coursera.org/account/accomplishments/specialization/74NU6NYJSDEX",
@@ -91,8 +91,8 @@
         },
         "google_data_analytics_specialization": {
             "name": "Google Data Analytics Specialization",
-            "logo": "/portfolio/images/certifications/Google/google.png",
-            "image": "/portfolio/images/certifications/Google/data_analytics.jpeg",
+            "logo": "/images/certifications/Google/google.png",
+            "image": "/images/certifications/Google/data_analytics.jpeg",
             "issued": "November 2024",
             "id": "MQXZ4DWXG9FL",
             "link": "https://www.coursera.org/account/accomplishments/specialization/MQXZ4DWXG9FL",
@@ -104,8 +104,8 @@
     "CIW": {
         "ciw_web_development_professional": {
             "name": "CIW Web Development Professional",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/web_development_professional.jpeg",
+            "logo": "/images/certifications/CIW/ciw.png",
+            "image": "/images/certifications/CIW/web_development_professional.jpeg",
             "issued": "February 2024",
             "id": "099598d1602d469a823dfc0c9b771c56",
             "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/099598d1602d469a823dfc0c9b771c56",
@@ -114,8 +114,8 @@
         },
         "ciw_v5_database_design_specialist": {
             "name": "CIW v5 Database Design Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/v5_database_design_specialist.jpeg",
+            "logo": "/images/certifications/CIW/ciw.png",
+            "image": "/images/certifications/CIW/v5_database_design_specialist.jpeg",
             "issued": "February 2024",
             "id": "3ee359d51bc948c9ae720b00d251e44c",
             "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/3ee359d51bc948c9ae720b00d251e44c",
@@ -124,8 +124,8 @@
         },
         "ciw_advanced_html5_and_css3_specialist": {
             "name": "CIW Advanced HTML5 and CSS3 Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/advanced_html5_and_css3_specialist.jpeg",
+            "logo": "/images/certifications/CIW/ciw.png",
+            "image": "/images/certifications/CIW/advanced_html5_and_css3_specialist.jpeg",
             "issued": "December 2023",
             "id": "0381257e8f084ae3959696a1134bebf9",
             "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/0381257e8f084ae3959696a1134bebf9",
@@ -134,8 +134,8 @@
         },
         "ciw_javascript_specialist": {
             "name": "CIW JavaScript Specialist",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/javascript_specialist.jpeg",
+            "logo": "/images/certifications/CIW/ciw.png",
+            "image": "/images/certifications/CIW/javascript_specialist.jpeg",
             "issued": "November 2023",
             "id": "6accbc4de3b74ffaa7b3aacfb742c9db",
             "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/6accbc4de3b74ffaa7b3aacfb742c9db",
@@ -144,8 +144,8 @@
         },
         "ciw_site_development_associate": {
             "name": "CIW Site Development Associate",
-            "logo": "/portfolio/images/certifications/CIW/ciw.png",
-            "image": "/portfolio/images/certifications/CIW/site_development_associate.jpeg",
+            "logo": "/images/certifications/CIW/ciw.png",
+            "image": "/images/certifications/CIW/site_development_associate.jpeg",
             "issued": "November 2023",
             "id": "1c398d0bf26e4b55991f090ed205e092",
             "link": "https://cp.certmetrics.com/ciwcerts/en/public/verify/credential/1c398d0bf26e4b55991f090ed205e092",
@@ -157,8 +157,8 @@
     "Certiport": {
         "certiport_application_developer": {
             "name": "Application Developer",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/application_developer.png",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/application_developer.png",
             "issued": "November 2024",
             "id": "",
             "link": "https://www.credly.com/badges/bdcd02d5-9842-468b-9159-851934015753/public_url",
@@ -167,8 +167,8 @@
         },
         "certiport_artificial_intelligence": {
             "name": "IT Specialist - Artificial Intelligence",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/artificial_intelligence.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/artificial_intelligence.jpeg",
             "issued": "June 2024",
             "id": "xX59-s4Yk",
             "link": "https://www.credly.com/badges/4dc0f205-cae7-4caa-a7e1-d05c57341a39/public_url",
@@ -177,8 +177,8 @@
         },
         "certiport_cloud_computing": {
             "name": "IT Specialist - Cloud Computing",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/cloud_computing.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/cloud_computing.jpeg",
             "issued": "June 2024",
             "id": "wbLcq-Fa82",
             "link": "https://www.credly.com/badges/1527ed91-4d21-4ef8-948a-4625886be0a8/public_url",
@@ -187,8 +187,8 @@
         },
         "certiport_computational_thinking": {
             "name": "IT Specialist - Computational Thinking",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/computational_thinking.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/computational_thinking.jpeg",
             "issued": "June 2024",
             "id": "wbLrk-H94J",
             "link": "https://www.credly.com/badges/0e3d2107-16d3-43df-b3c1-d4f8b9be4d75/public_url",
@@ -197,8 +197,8 @@
         },
         "certiport_data_analytics": {
             "name": "IT Specialist - Data Analytics",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/data_analytics.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/data_analytics.jpeg",
             "issued": "June 2024",
             "id": "xX38-s4bx",
             "link": "https://www.credly.com/badges/a75abc84-a0fb-40b6-b39b-6a6cf3e0b92f/public_url",
@@ -207,8 +207,8 @@
         },
         "certiport_software_development": {
             "name": "IT Specialist - Software Development",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/software_development.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/software_development.jpeg",
             "issued": "June 2024",
             "id": "5AWB-4wbK",
             "link": "https://www.credly.com/badges/0400af0a-5dfb-4a67-975a-62025caeed76/public_url",
@@ -217,8 +217,8 @@
         },
         "certiport_network_automation_specialist": {
             "name": "Network Automation Specialist",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/network_automation_specialist.png",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/network_automation_specialist.png",
             "issued": "June 2024",
             "id": "",
             "link": "https://www.credly.com/badges/e3fb8eb0-9f55-41ef-8136-7a4145f289f4/public_url",
@@ -227,8 +227,8 @@
         },
         "certiport_device_configuration_and_management": {
             "name": "IT Specialist - Device Configuration and Management",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/device_configuration_and_management.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/device_configuration_and_management.jpeg",
             "issued": "May 2024",
             "id": "wbbX3-FaGG",
             "link": "https://www.credly.com/badges/eeb40496-7507-4b82-bfb5-5ad134908cb6/public_url",
@@ -237,8 +237,8 @@
         },
         "certiport_java": {
             "name": "IT Specialist - Java",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/java.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/java.jpeg",
             "issued": "May 2024",
             "id": "xyJr-s4Na",
             "link": "https://www.credly.com/badges/1acbe6ab-c46d-4204-8c55-9cfd8a8c303d/public_url",
@@ -247,8 +247,8 @@
         },
         "certiport_it_technical_support_specialist": {
             "name": "IT Technical Support Specialist",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/it_technical_support_specialist.png",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/it_technical_support_specialist.png",
             "issued": "May 2024",
             "id": "",
             "link": "https://www.credly.com/badges/7ecdaf81-8126-40e6-9343-4f451db07b52/public_url",
@@ -257,8 +257,8 @@
         },
         "certiport_network_security_support_technician": {
             "name": "Network Security Support Technician",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/network_security_support_technician.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/network_security_support_technician.jpeg",
             "issued": "May 2024",
             "id": "",
             "link": "https://www.credly.com/badges/3378b022-459c-4b7a-b15d-125a1cb425db/public_url",
@@ -267,8 +267,8 @@
         },
         "certiport_databases": {
             "name": "IT Specialist - Databases",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/databases.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/databases.jpeg",
             "issued": "March 2024",
             "id": "wU49p-FaGW",
             "link": "https://www.credly.com/badges/3378b022-459c-4b7a-b15d-125a1cb425db/public_url",
@@ -277,8 +277,8 @@
         },
         "certiport_network_security": {
             "name": "IT Specialist - Network Security",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/network_security.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/network_security.jpeg",
             "issued": "March 2024",
             "id": "E3zq-XM3n",
             "link": "https://www.credly.com/badges/d1780610-2df5-486b-b812-4975187da84a/public_url",
@@ -287,8 +287,8 @@
         },
         "certiport_networking": {
             "name": "IT Specialist - Networking",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/networking.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/networking.jpeg",
             "issued": "March 2024",
             "id": "vnYR-Dwza",
             "link": "https://www.credly.com/badges/7ddc8cb7-0a24-425e-8118-0c89bde52dd3/public_url",
@@ -297,8 +297,8 @@
         },
         "certiport_cybersecurity": {
             "name": "IT Specialist - Cybersecurity",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/cybersecurity.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/cybersecurity.jpeg",
             "issued": "February 2024",
             "id": "wdVaA-48Go",
             "link": "https://www.credly.com/badges/122b6a44-e043-4678-85e9-79f2c6bb7002/public_url",
@@ -307,8 +307,8 @@
         },
         "certiport_html5_application_development": {
             "name": "IT Specialist - HTML5 Application Development",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/html5_application_development.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/html5_application_development.jpeg",
             "issued": "October 2023",
             "id": "ENq5-DkTb",
             "link": "https://www.credly.com/badges/22f4976a-f8fe-4eec-9f9f-3255d7dad76d/public_url",
@@ -317,8 +317,8 @@
         },
         "certiport_javascript": {
             "name": "IT Specialist - JavaScript",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/javascript.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/javascript.jpeg",
             "issued": "September 2023",
             "id": "HDCP-XMzx",
             "link": "https://www.credly.com/badges/72260f69-312d-4694-8a92-78d30a1601e1/public_url",
@@ -327,8 +327,8 @@
         },
         "certiport_html_and_css": {
             "name": "IT Specialist - HTML and CSS",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/html_and_css.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/html_and_css.jpeg",
             "issued": "May 2023",
             "id": "66q5-uTnS",
             "link": "https://www.credly.com/badges/1456e941-fb64-4ac3-90e5-e7d6d1d1e8f8/public_url",
@@ -337,8 +337,8 @@
         },
         "certiport_python": {
             "name": "IT Specialist - Python",
-            "logo": "/portfolio/images/certifications/Certiport/certiport.png",
-            "image": "/portfolio/images/certifications/Certiport/python.jpeg",
+            "logo": "/images/certifications/Certiport/certiport.png",
+            "image": "/images/certifications/Certiport/python.jpeg",
             "issued": "May 2023",
             "id": "sVmK-XMzs",
             "link": "https://www.credly.com/badges/888e7a1b-27b9-46f4-aff5-708e5b7e932a/public_url",
