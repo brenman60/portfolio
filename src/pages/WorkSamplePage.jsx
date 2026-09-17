@@ -88,7 +88,7 @@ const WorkSamplePage = () => {
             <div id="workPicture">
               <button id="workPictureLeft" onClick={() => {
                 changeImage(-1);
-              }} type="button"><img src="/images/icons/arrow.png" alt="Left Arrow" /></button>
+              }} type="button"><img src="images/icons/arrow.png" alt="Left Arrow" /></button>
               <AnimatePresence mode="wait" initial={false}>
                 <motion.img
                   key={workSample.pictures[picture].link}
@@ -103,12 +103,12 @@ const WorkSamplePage = () => {
               </AnimatePresence>
 
               <button id="workPictureZoom" onClick={() => openImageViewer(workSample.pictures[picture])}>
-                <img src="/images/icons/zoom.png" alt="Open Image" />
+                <img src="images/icons/zoom.png" alt="Open Image" />
               </button>
 
               <button id="workPictureRight" onClick={() => {
                 changeImage(1);
-              }} type="button"><img src="/images/icons/arrow.png" alt="Right Arrow" /></button>
+              }} type="button"><img src="images/icons/arrow.png" alt="Right Arrow" /></button>
             </div>
             <ul id="workPictureDots">
               {workSample.pictures.map((_, index) => (

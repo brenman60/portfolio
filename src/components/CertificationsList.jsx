@@ -76,7 +76,7 @@ const CertificationsList = ({
         <h1 className="certGroupTitle">{title}</h1>
         <div className="certGroupButtonWrapper" style={{ pointerEvents: buttonDisabled ? "none" : "auto" }}>
           <button className="certGroupButton" onClick={(e) => toggleList(e.target)} type="button">
-            <img className={isOpen ? "open" : "closed"} src="/images/icons/arrow.png" alt="Toggle List" />
+            <img className={isOpen ? "open" : "closed"} src="images/icons/arrow.png" alt="Toggle List" />
           </button>
         </div>
         <ul className={`certificationsList ${isOpen ? "open" : "closed"}`} ref={listRef}  style={isOpen ? {
