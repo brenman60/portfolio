@@ -6,11 +6,7 @@ const WorkSampleList = () => {
   const [data, setData] = useState(null);
     
   useEffect(() => {
-    // const jsonPath = import.meta.env.DEV 
-    // ? "/data/workSamples.json" 
-    // : `${import.meta.env.BASE_URL}data/workSamples.json`;
-
-    fetch("/data/workSamples.json")
+    fetch("data/workSamples.json")
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
