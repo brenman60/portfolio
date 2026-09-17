@@ -3,7 +3,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Data Cleaning & Visualization",
-        "order": "3",
+        "order": "4",
         "gallery": [
             "/portfolio/images/projects/DataCleaningVisualization/1.jpg",
             "/portfolio/images/projects/DataCleaningVisualization/2.jpg",
@@ -21,11 +21,11 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/DataCleaningVisualization.zip"
+                "link": "https://github.com/brenman60/CVS-Data-Science/releases/latest/download/Source.zip"
             },
             {
                 "name": "Presentation",
-                "link": "/portfolio/downloads/projects/CVSDataSciencePresentation.zip"
+                "link": "/portfolio/downloads/projects/CVSDataSciencePresentation.pdf"
             }
         ],
         "tags": [22, 63, 12, 13, 15],
@@ -58,7 +58,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Discord Bot",
-        "order": "4",
+        "order": "6",
         "gallery": [
             "/portfolio/images/projects/DiscordBot/1.jpg",
             "/portfolio/images/projects/DiscordBot/2.jpg",
@@ -106,7 +106,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Classroom Notify",
-        "order": "2",
+        "order": "3",
         "gallery": [
             "/portfolio/images/projects/ClassroomNotify/1.jpg",
             "/portfolio/images/projects/ClassroomNotify/2.jpg",
@@ -144,7 +144,7 @@
         "category": "Data Science & Automation",
         "status": "Completed",
         "name": "Python Mod Downloader",
-        "order": "7",
+        "order": "9",
         "gallery": [
             "/portfolio/images/projects/PythonModDownloader/1.jpg",
             "/portfolio/images/projects/PythonModDownloader/2.jpg",
@@ -183,7 +183,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "Binary Clock",
-        "order": "5",
+        "order": "7",
         "gallery": [
             "/portfolio/images/projects/BinaryClock/1.jpg",
             "/portfolio/images/projects/BinaryClock/2.jpg",
@@ -197,7 +197,7 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/BinaryClock.zip"
+                "link": "https://github.com/brenman60/Binary-Clock/releases/latest/download/Windows.zip"
             }
         ],
         "tags": [64, 65, 12, 17],
@@ -230,7 +230,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "C# Mod Downloader",
-        "order": "8",
+        "order": "10",
         "gallery": [
             "/portfolio/images/projects/CSharpModDownloader/1.jpg",
             "/portfolio/images/projects/CSharpModDownloader/2.jpg",
@@ -309,7 +309,7 @@
         "category": "Programming",
         "status": "Completed",
         "name": "Modpack Manager",
-        "order": "6",
+        "order": "8",
         "gallery": [
             "/portfolio/images/projects/ModpackManager/2.jpg",
             "/portfolio/images/projects/ModpackManager/1.jpg",
@@ -323,7 +323,7 @@
             },
             {
                 "name": "Download",
-                "link": "/portfolio/downloads/projects/ModpackManager.zip"
+                "link": "https://github.com/brenman60/Modpack-Manager/releases/latest/download/Windows.zip"
             }
         ],
         "tags": [67, 66, 3, 56, 24, 68],
@@ -375,19 +375,15 @@
             {
                 "name": "Google Play",
                 "link": "https://play.google.com/store/apps/details?id=com.brenman60Games.Forlorn"
-            },
-            {
-                "name": "Project Website",
-                "link": "https://gameprojectforlornsite-1-10881469.codehs.me/index.html"
             }
         ],
         "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17, 74, 75],
-        "description": "Created during a game development project in my Information Technology class, Forlorn was based off the theme of immigration. In this project, everyone worked in pairs to create both a game and website. In my case, my partner worked on the game's website, while I worked on the game. During the project, each group was instructed to create a project planner to organize and visualize their progress, detailing all the tasks each member of the group was to work on. Finally, at the end of the project we were to create poster boards with information on our games, as a form of advertisement, and present them in an open-house style format to students who came by. Additionally, our teacher held a voting station where viewers of the presentations could vote on which game they found to be most enjoyable, which Forlorn ended up winning 1st place.",
+        "description": "Created during a game development project in my Information Technology class, Forlorn was based off the theme of immigration. In this project, everyone worked in pairs to create both a game and website. In my case, my partner worked on the game's website, while I worked on the game. During the project, each group was instructed to create a project planner to organize and visualize their progress, detailing all the tasks each member of the group was to work on. Finally, at the end of the project we were to create poster boards with information on our games, as a form of advertisement, and present them in an open-house style format to students who came by. Additionally, our teacher held a voting station where viewers of the presentations could vote on which game they found to be most enjoyable, which Forlorn ended up winning 1st place. A few months after the conclusion of this class project, I went back and developed a mobile version of the game that was released on the Google Play Store.",
         "visibility": "visible",
 
         "banner": "/portfolio/images/projects/Forlorn/6.jpg",
         "time": "October 2024 - December 2024",
-        "role": "Programmer",
+        "role": "Programmer & Designer",
         "pictures": [
             {
                 "link": "/portfolio/images/projects/Forlorn/1.jpg",
@@ -412,6 +408,114 @@
             {
                 "link": "/portfolio/images/projects/Forlorn/6.jpg",
                 "caption": "The Unity environment used for the bulk of the game's development."
+            }
+        ]
+    },
+    "impact_initiative": {
+        "category": "Game Development",
+        "status": "Completed",
+        "name": "Impact Initiative",
+        "order": "2",
+        "gallery": [
+            "/portfolio/images/projects/ImpactInitiative/1.jpg",
+            "/portfolio/images/projects/ImpactInitiative/2.jpg",
+            "/portfolio/images/projects/ImpactInitiative/3.jpg",
+            "/portfolio/images/projects/ImpactInitiative/4.jpg"
+        ],
+        "links": [
+            {
+                "name": "Itch",
+                "link": "https://brenman60.itch.io/impact-initiative"
+            }
+        ],
+        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17],
+        "description": "Initially developed for the 2024 Congressional App Challenge, Impact Initiative intended to provide an easy gameplay experience in which the user builds a volunteering organization. While playing, the game displays various facts and snippets of information about real-life volunteering, with its main intent being to inspire the user to go out and volunteer themselves.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/ImpactInitiative/3.jpg",
+        "time": "October 2024 - December 2024",
+        "role": "Programmer, Modeler, & Designer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/ImpactInitiative/1.jpg",
+                "caption": "Gameplay screenshot displaying the volunteer recruitment section."
+            },
+            {
+                "link": "/portfolio/images/projects/ImpactInitiative/2.jpg",
+                "caption": "Gameplay screenshot displaying the volunteer training section."
+            },
+            {
+                "link": "/portfolio/images/projects/ImpactInitiative/3.jpg",
+                "caption": "Gameplay screenshot displaying the project planning section."
+            },
+            {
+                "link": "/portfolio/images/projects/ImpactInitiative/4.jpg",
+                "caption": "Gameplay screenshot displaying the supply collection section."
+            }
+        ]
+    },
+    "darkening": {
+        "category": "Game Development",
+        "status": "Completed",
+        "name": "Darkening",
+        "order": "5",
+        "gallery": [
+            "/portfolio/images/projects/Darkening/1.jpg",
+            "/portfolio/images/projects/Darkening/2.jpg",
+            "/portfolio/images/projects/Darkening/3.jpg",
+            "/portfolio/images/projects/Darkening/7.jpg",
+            "/portfolio/images/projects/Darkening/8.jpg",
+            "/portfolio/images/projects/Darkening/9.jpg"
+        ],
+        "links": [
+            {
+                "name": "GitHub",
+                "link": "https://github.com/brenman60/Darkening"
+            },
+            {
+               "name": "Download",
+               "link": "https://github.com/brenman60/Darkening/releases/latest/download/Windows.zip"
+            },
+            {
+                "name": "Itch",
+                "link": "https://brenman60.itch.io/darkening"
+            }
+        ],
+        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17, 76],
+        "description": "Darkening was created within the span of a week to test how quickly I could make a semi-complete game. I ended up creating a Five Nights at Freddy's style game based within a house where the player needs to defend their room as they're hunted by a monster. This project also served as a concrete introduction to 3D modeling for me, as all the furniture in the game was hand made in Blender.",
+        "visibility": "visible",
+
+        "banner": "/portfolio/images/projects/Darkening/2.jpg",
+        "time": "August 2023",
+        "role": "Programmer, Modeler, & Designer",
+        "pictures": [
+            {
+                "link": "/portfolio/images/projects/Darkening/1.jpg",
+                "caption": "Gameplay screenshot displaying the player looking at one of the cameras."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/2.jpg",
+                "caption": "Gameplay screenshot displaying the player looking at one of the cameras."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/7.jpg",
+                "caption": "Gameplay screenshot displaying the main menu along with the main antagonist of the game."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/3.jpg",
+                "caption": "Gameplay screenshot displaying the player looking at one of the cameras."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/4.jpg",
+                "caption": "Gameplay screenshot displaying the player looking out of the door."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/8.jpg",
+                "caption": "Gameplay screenshot displaying the player looking at their the door from the desk."
+            },
+            {
+                "link": "/portfolio/images/projects/Darkening/9.jpg",
+                "caption": "Gameplay screenshot displaying the player looking into the closet."
             }
         ]
     },
@@ -443,38 +547,6 @@
 
         "banner": "/portfolio/images/projects/TankStrike/Example5.png",
         "time": "April 2022 - Present",
-        "role": "",
-        "pictures": [
-            {
-                "link": "",
-                "caption": ""
-            }
-        ]
-    },
-    "darkening": {
-        "category": "Game Development",
-        "status": "Completed",
-        "name": "Darkening",
-        "order": "0",
-        "gallery": [
-            "/portfolio/images/projects/Darkening/1.png"
-        ],
-        "links": [
-            {
-                "name": "GitHub",
-                "link": "https://github.com/brenman60/Darkening"
-            },
-            {
-                "name": "Itch",
-                "link": "https://brenman60.itch.io/darkening"
-            }
-        ],
-        "tags": [71, 72, 68, 67, 70, 57, 26, 13, 17],
-        "description": "Template Description",
-        "visibility": "hidden",
-
-        "banner": "/portfolio/images/projects/Darkening/1.png",
-        "time": "August 2023",
         "role": "",
         "pictures": [
             {
